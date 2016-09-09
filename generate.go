@@ -20,7 +20,7 @@ import (
 	"golang.org/x/net/html/atom"
 )
 
-var outputFile = flag.String("o", "", "write output to `file` (default standard output)")
+var oFlag = flag.String("o", "", "write output to `file` (default standard output)")
 
 func run() error {
 	// TODO: Use tagged release starting with v4.4.0 when it's out, instead of master.
@@ -32,17 +32,17 @@ func run() error {
 		return fmt.Errorf("non-200 status code: %v", resp.StatusCode)
 	}
 
-	var v map[string]string
-	err = json.NewDecoder(resp.Body).Decode(&v)
+	var octicons map[string]string
+	err = json.NewDecoder(resp.Body).Decode(&octicons)
 	if err != nil {
 		return err
 	}
 
-	var ss []string
-	for k := range v {
-		ss = append(ss, k)
+	var names []string
+	for name := range octicons {
+		names = append(names, name)
 	}
-	sort.Strings(ss)
+	sort.Strings(names)
 
 	var buf bytes.Buffer
 	fmt.Fprint(&buf, `package octicons
@@ -54,8 +54,8 @@ import (
 
 var (
 `)
-	for i := range ss {
-		processOcticon(&buf, v, ss, i)
+	for i := range names {
+		processOcticon(&buf, octicons, names[i])
 	}
 	fmt.Fprint(&buf, ")\n")
 
@@ -65,11 +65,11 @@ var (
 	}
 
 	var w io.Writer
-	switch *outputFile {
+	switch *oFlag {
 	case "":
 		w = os.Stdout
 	default:
-		f, err := os.Create(*outputFile)
+		f, err := os.Create(*oFlag)
 		if err != nil {
 			return err
 		}
@@ -81,31 +81,20 @@ var (
 	return err
 }
 
-func processOcticon(w io.Writer, v map[string]string, ss []string, i int) {
-	svg := parseOcticon(v[ss[i]])
+func processOcticon(w io.Writer, octicons map[string]string, name string) {
+	svg := parseOcticon(octicons[name])
 
-	parent := svg
-	child := svg.FirstChild
+	// Clear these fields to remove cycles in the data structure, since go-goon
+	// cannot print those in a way that's valid Go code. The generated data structure
+	// is not a proper *html.Node with all fields set, but it's enough for rendering
+	// to be successful.
+	svg.LastChild = nil
+	svg.FirstChild.Parent = nil
 
-	parent.FirstChild = nil
-	parent.LastChild = nil
-	child.Parent = nil
-
-	fmt.Fprintf(w, "	// %s is an %q Octicon SVG node.\n", dashSepToMixedCaps(ss[i]), ss[i])
-	fmt.Fprintf(w, "	%s = func() *html.Node {\n", dashSepToMixedCaps(ss[i]))
-
-	fmt.Fprint(w, "		parent := ")
-	goon.Fdump(w, parent)
-	fmt.Fprint(w, "		child := ")
-	goon.Fdump(w, child)
-
-	fmt.Fprint(w, `		parent.FirstChild = child
-		parent.LastChild = child
-		child.Parent = parent
-		return parent
-	}()
-
-`)
+	fmt.Fprintf(w, "	// %s is an %q Octicon SVG node.\n", dashSepToMixedCaps(name), name)
+	fmt.Fprintf(w, "	%s = ", dashSepToMixedCaps(name))
+	goon.Fdump(w, svg)
+	fmt.Fprintln(w)
 }
 
 func main() {
