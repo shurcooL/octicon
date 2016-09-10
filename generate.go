@@ -12,6 +12,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"path/filepath"
 	"sort"
 	"strings"
 
@@ -23,17 +24,30 @@ import (
 var oFlag = flag.String("o", "", "write output to `file` (default standard output)")
 
 func run() error {
-	// TODO: Use tagged release starting with v4.4.0 when it's out, instead of master.
-	resp, err := http.Get("https://raw.githubusercontent.com/primer/octicons/master/build/svg.json")
-	if err != nil {
-		return err
-	}
-	if resp.StatusCode != http.StatusOK {
-		return fmt.Errorf("non-200 status code: %v", resp.StatusCode)
+	var r io.Reader
+	switch 0 {
+	case 0:
+		// TODO: Use tagged release starting with v4.4.0 when it's out, instead of master.
+		resp, err := http.Get("https://raw.githubusercontent.com/primer/octicons/master/build/svg.json")
+		if err != nil {
+			return err
+		}
+		defer resp.Body.Close()
+		if resp.StatusCode != http.StatusOK {
+			return fmt.Errorf("non-200 status code: %v", resp.StatusCode)
+		}
+		r = resp.Body
+	case 1:
+		f, err := os.Open(filepath.Join("_data", "svg.json"))
+		if err != nil {
+			return err
+		}
+		defer f.Close()
+		r = f
 	}
 
 	var octicons map[string]string
-	err = json.NewDecoder(resp.Body).Decode(&octicons)
+	err := json.NewDecoder(r).Decode(&octicons)
 	if err != nil {
 		return err
 	}
