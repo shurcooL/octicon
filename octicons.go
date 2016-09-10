@@ -5,9 +5,9 @@ import (
 	"golang.org/x/net/html/atom"
 )
 
-var (
-	// Alert is an "alert" Octicon SVG node.
-	Alert = &html.Node{
+// Alert returns an "alert" Octicon SVG node.
+func Alert() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -62,9 +62,11 @@ var (
 			},
 		},
 	}
+}
 
-	// ArrowDown is an "arrow-down" Octicon SVG node.
-	ArrowDown = &html.Node{
+// ArrowDown returns an "arrow-down" Octicon SVG node.
+func ArrowDown() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -119,9 +121,11 @@ var (
 			},
 		},
 	}
+}
 
-	// ArrowLeft is an "arrow-left" Octicon SVG node.
-	ArrowLeft = &html.Node{
+// ArrowLeft returns an "arrow-left" Octicon SVG node.
+func ArrowLeft() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -176,9 +180,11 @@ var (
 			},
 		},
 	}
+}
 
-	// ArrowRight is an "arrow-right" Octicon SVG node.
-	ArrowRight = &html.Node{
+// ArrowRight returns an "arrow-right" Octicon SVG node.
+func ArrowRight() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -233,9 +239,11 @@ var (
 			},
 		},
 	}
+}
 
-	// ArrowSmallDown is an "arrow-small-down" Octicon SVG node.
-	ArrowSmallDown = &html.Node{
+// ArrowSmallDown returns an "arrow-small-down" Octicon SVG node.
+func ArrowSmallDown() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -290,9 +298,11 @@ var (
 			},
 		},
 	}
+}
 
-	// ArrowSmallLeft is an "arrow-small-left" Octicon SVG node.
-	ArrowSmallLeft = &html.Node{
+// ArrowSmallLeft returns an "arrow-small-left" Octicon SVG node.
+func ArrowSmallLeft() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -347,9 +357,11 @@ var (
 			},
 		},
 	}
+}
 
-	// ArrowSmallRight is an "arrow-small-right" Octicon SVG node.
-	ArrowSmallRight = &html.Node{
+// ArrowSmallRight returns an "arrow-small-right" Octicon SVG node.
+func ArrowSmallRight() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -404,9 +416,11 @@ var (
 			},
 		},
 	}
+}
 
-	// ArrowSmallUp is an "arrow-small-up" Octicon SVG node.
-	ArrowSmallUp = &html.Node{
+// ArrowSmallUp returns an "arrow-small-up" Octicon SVG node.
+func ArrowSmallUp() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -461,9 +475,11 @@ var (
 			},
 		},
 	}
+}
 
-	// ArrowUp is an "arrow-up" Octicon SVG node.
-	ArrowUp = &html.Node{
+// ArrowUp returns an "arrow-up" Octicon SVG node.
+func ArrowUp() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -518,9 +534,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Beaker is an "beaker" Octicon SVG node.
-	Beaker = &html.Node{
+// Beaker returns an "beaker" Octicon SVG node.
+func Beaker() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -575,9 +593,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Bell is an "bell" Octicon SVG node.
-	Bell = &html.Node{
+// Bell returns an "bell" Octicon SVG node.
+func Bell() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -632,9 +652,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Bold is an "bold" Octicon SVG node.
-	Bold = &html.Node{
+// Bold returns an "bold" Octicon SVG node.
+func Bold() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -689,9 +711,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Book is an "book" Octicon SVG node.
-	Book = &html.Node{
+// Book returns an "book" Octicon SVG node.
+func Book() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -746,9 +770,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Bookmark is an "bookmark" Octicon SVG node.
-	Bookmark = &html.Node{
+// Bookmark returns an "bookmark" Octicon SVG node.
+func Bookmark() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -803,9 +829,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Briefcase is an "briefcase" Octicon SVG node.
-	Briefcase = &html.Node{
+// Briefcase returns an "briefcase" Octicon SVG node.
+func Briefcase() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -860,9 +888,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Broadcast is an "broadcast" Octicon SVG node.
-	Broadcast = &html.Node{
+// Broadcast returns an "broadcast" Octicon SVG node.
+func Broadcast() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -917,9 +947,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Browser is an "browser" Octicon SVG node.
-	Browser = &html.Node{
+// Browser returns an "browser" Octicon SVG node.
+func Browser() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -974,9 +1006,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Bug is an "bug" Octicon SVG node.
-	Bug = &html.Node{
+// Bug returns an "bug" Octicon SVG node.
+func Bug() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -1031,9 +1065,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Calendar is an "calendar" Octicon SVG node.
-	Calendar = &html.Node{
+// Calendar returns an "calendar" Octicon SVG node.
+func Calendar() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -1088,9 +1124,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Check is an "check" Octicon SVG node.
-	Check = &html.Node{
+// Check returns an "check" Octicon SVG node.
+func Check() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -1145,9 +1183,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Checklist is an "checklist" Octicon SVG node.
-	Checklist = &html.Node{
+// Checklist returns an "checklist" Octicon SVG node.
+func Checklist() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -1202,9 +1242,11 @@ var (
 			},
 		},
 	}
+}
 
-	// ChevronDown is an "chevron-down" Octicon SVG node.
-	ChevronDown = &html.Node{
+// ChevronDown returns an "chevron-down" Octicon SVG node.
+func ChevronDown() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -1259,9 +1301,11 @@ var (
 			},
 		},
 	}
+}
 
-	// ChevronLeft is an "chevron-left" Octicon SVG node.
-	ChevronLeft = &html.Node{
+// ChevronLeft returns an "chevron-left" Octicon SVG node.
+func ChevronLeft() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -1316,9 +1360,11 @@ var (
 			},
 		},
 	}
+}
 
-	// ChevronRight is an "chevron-right" Octicon SVG node.
-	ChevronRight = &html.Node{
+// ChevronRight returns an "chevron-right" Octicon SVG node.
+func ChevronRight() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -1373,9 +1419,11 @@ var (
 			},
 		},
 	}
+}
 
-	// ChevronUp is an "chevron-up" Octicon SVG node.
-	ChevronUp = &html.Node{
+// ChevronUp returns an "chevron-up" Octicon SVG node.
+func ChevronUp() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -1430,9 +1478,11 @@ var (
 			},
 		},
 	}
+}
 
-	// CircleSlash is an "circle-slash" Octicon SVG node.
-	CircleSlash = &html.Node{
+// CircleSlash returns an "circle-slash" Octicon SVG node.
+func CircleSlash() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -1487,9 +1537,11 @@ var (
 			},
 		},
 	}
+}
 
-	// CircuitBoard is an "circuit-board" Octicon SVG node.
-	CircuitBoard = &html.Node{
+// CircuitBoard returns an "circuit-board" Octicon SVG node.
+func CircuitBoard() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -1544,9 +1596,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Clippy is an "clippy" Octicon SVG node.
-	Clippy = &html.Node{
+// Clippy returns an "clippy" Octicon SVG node.
+func Clippy() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -1601,9 +1655,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Clock is an "clock" Octicon SVG node.
-	Clock = &html.Node{
+// Clock returns an "clock" Octicon SVG node.
+func Clock() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -1658,9 +1714,11 @@ var (
 			},
 		},
 	}
+}
 
-	// CloudDownload is an "cloud-download" Octicon SVG node.
-	CloudDownload = &html.Node{
+// CloudDownload returns an "cloud-download" Octicon SVG node.
+func CloudDownload() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -1715,9 +1773,11 @@ var (
 			},
 		},
 	}
+}
 
-	// CloudUpload is an "cloud-upload" Octicon SVG node.
-	CloudUpload = &html.Node{
+// CloudUpload returns an "cloud-upload" Octicon SVG node.
+func CloudUpload() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -1772,9 +1832,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Code is an "code" Octicon SVG node.
-	Code = &html.Node{
+// Code returns an "code" Octicon SVG node.
+func Code() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -1829,9 +1891,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Comment is an "comment" Octicon SVG node.
-	Comment = &html.Node{
+// Comment returns an "comment" Octicon SVG node.
+func Comment() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -1886,9 +1950,11 @@ var (
 			},
 		},
 	}
+}
 
-	// CommentDiscussion is an "comment-discussion" Octicon SVG node.
-	CommentDiscussion = &html.Node{
+// CommentDiscussion returns an "comment-discussion" Octicon SVG node.
+func CommentDiscussion() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -1943,9 +2009,11 @@ var (
 			},
 		},
 	}
+}
 
-	// CreditCard is an "credit-card" Octicon SVG node.
-	CreditCard = &html.Node{
+// CreditCard returns an "credit-card" Octicon SVG node.
+func CreditCard() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -2000,9 +2068,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Dash is an "dash" Octicon SVG node.
-	Dash = &html.Node{
+// Dash returns an "dash" Octicon SVG node.
+func Dash() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -2057,9 +2127,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Dashboard is an "dashboard" Octicon SVG node.
-	Dashboard = &html.Node{
+// Dashboard returns an "dashboard" Octicon SVG node.
+func Dashboard() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -2114,9 +2186,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Database is an "database" Octicon SVG node.
-	Database = &html.Node{
+// Database returns an "database" Octicon SVG node.
+func Database() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -2171,9 +2245,11 @@ var (
 			},
 		},
 	}
+}
 
-	// DesktopDownload is an "desktop-download" Octicon SVG node.
-	DesktopDownload = &html.Node{
+// DesktopDownload returns an "desktop-download" Octicon SVG node.
+func DesktopDownload() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -2228,9 +2304,11 @@ var (
 			},
 		},
 	}
+}
 
-	// DeviceCamera is an "device-camera" Octicon SVG node.
-	DeviceCamera = &html.Node{
+// DeviceCamera returns an "device-camera" Octicon SVG node.
+func DeviceCamera() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -2285,9 +2363,11 @@ var (
 			},
 		},
 	}
+}
 
-	// DeviceCameraVideo is an "device-camera-video" Octicon SVG node.
-	DeviceCameraVideo = &html.Node{
+// DeviceCameraVideo returns an "device-camera-video" Octicon SVG node.
+func DeviceCameraVideo() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -2342,9 +2422,11 @@ var (
 			},
 		},
 	}
+}
 
-	// DeviceDesktop is an "device-desktop" Octicon SVG node.
-	DeviceDesktop = &html.Node{
+// DeviceDesktop returns an "device-desktop" Octicon SVG node.
+func DeviceDesktop() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -2399,9 +2481,11 @@ var (
 			},
 		},
 	}
+}
 
-	// DeviceMobile is an "device-mobile" Octicon SVG node.
-	DeviceMobile = &html.Node{
+// DeviceMobile returns an "device-mobile" Octicon SVG node.
+func DeviceMobile() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -2456,9 +2540,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Diff is an "diff" Octicon SVG node.
-	Diff = &html.Node{
+// Diff returns an "diff" Octicon SVG node.
+func Diff() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -2513,9 +2599,11 @@ var (
 			},
 		},
 	}
+}
 
-	// DiffAdded is an "diff-added" Octicon SVG node.
-	DiffAdded = &html.Node{
+// DiffAdded returns an "diff-added" Octicon SVG node.
+func DiffAdded() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -2570,9 +2658,11 @@ var (
 			},
 		},
 	}
+}
 
-	// DiffIgnored is an "diff-ignored" Octicon SVG node.
-	DiffIgnored = &html.Node{
+// DiffIgnored returns an "diff-ignored" Octicon SVG node.
+func DiffIgnored() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -2627,9 +2717,11 @@ var (
 			},
 		},
 	}
+}
 
-	// DiffModified is an "diff-modified" Octicon SVG node.
-	DiffModified = &html.Node{
+// DiffModified returns an "diff-modified" Octicon SVG node.
+func DiffModified() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -2684,9 +2776,11 @@ var (
 			},
 		},
 	}
+}
 
-	// DiffRemoved is an "diff-removed" Octicon SVG node.
-	DiffRemoved = &html.Node{
+// DiffRemoved returns an "diff-removed" Octicon SVG node.
+func DiffRemoved() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -2741,9 +2835,11 @@ var (
 			},
 		},
 	}
+}
 
-	// DiffRenamed is an "diff-renamed" Octicon SVG node.
-	DiffRenamed = &html.Node{
+// DiffRenamed returns an "diff-renamed" Octicon SVG node.
+func DiffRenamed() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -2798,9 +2894,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Ellipses is an "ellipses" Octicon SVG node.
-	Ellipses = &html.Node{
+// Ellipses returns an "ellipses" Octicon SVG node.
+func Ellipses() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -2855,9 +2953,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Ellipsis is an "ellipsis" Octicon SVG node.
-	Ellipsis = &html.Node{
+// Ellipsis returns an "ellipsis" Octicon SVG node.
+func Ellipsis() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -2912,9 +3012,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Eye is an "eye" Octicon SVG node.
-	Eye = &html.Node{
+// Eye returns an "eye" Octicon SVG node.
+func Eye() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -2969,9 +3071,11 @@ var (
 			},
 		},
 	}
+}
 
-	// File is an "file" Octicon SVG node.
-	File = &html.Node{
+// File returns an "file" Octicon SVG node.
+func File() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -3026,9 +3130,11 @@ var (
 			},
 		},
 	}
+}
 
-	// FileBinary is an "file-binary" Octicon SVG node.
-	FileBinary = &html.Node{
+// FileBinary returns an "file-binary" Octicon SVG node.
+func FileBinary() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -3083,9 +3189,11 @@ var (
 			},
 		},
 	}
+}
 
-	// FileCode is an "file-code" Octicon SVG node.
-	FileCode = &html.Node{
+// FileCode returns an "file-code" Octicon SVG node.
+func FileCode() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -3140,9 +3248,11 @@ var (
 			},
 		},
 	}
+}
 
-	// FileDirectory is an "file-directory" Octicon SVG node.
-	FileDirectory = &html.Node{
+// FileDirectory returns an "file-directory" Octicon SVG node.
+func FileDirectory() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -3197,9 +3307,11 @@ var (
 			},
 		},
 	}
+}
 
-	// FileMedia is an "file-media" Octicon SVG node.
-	FileMedia = &html.Node{
+// FileMedia returns an "file-media" Octicon SVG node.
+func FileMedia() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -3254,9 +3366,11 @@ var (
 			},
 		},
 	}
+}
 
-	// FilePdf is an "file-pdf" Octicon SVG node.
-	FilePdf = &html.Node{
+// FilePdf returns an "file-pdf" Octicon SVG node.
+func FilePdf() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -3311,9 +3425,11 @@ var (
 			},
 		},
 	}
+}
 
-	// FileSubmodule is an "file-submodule" Octicon SVG node.
-	FileSubmodule = &html.Node{
+// FileSubmodule returns an "file-submodule" Octicon SVG node.
+func FileSubmodule() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -3368,9 +3484,11 @@ var (
 			},
 		},
 	}
+}
 
-	// FileSymlinkDirectory is an "file-symlink-directory" Octicon SVG node.
-	FileSymlinkDirectory = &html.Node{
+// FileSymlinkDirectory returns an "file-symlink-directory" Octicon SVG node.
+func FileSymlinkDirectory() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -3425,9 +3543,11 @@ var (
 			},
 		},
 	}
+}
 
-	// FileSymlinkFile is an "file-symlink-file" Octicon SVG node.
-	FileSymlinkFile = &html.Node{
+// FileSymlinkFile returns an "file-symlink-file" Octicon SVG node.
+func FileSymlinkFile() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -3482,9 +3602,11 @@ var (
 			},
 		},
 	}
+}
 
-	// FileText is an "file-text" Octicon SVG node.
-	FileText = &html.Node{
+// FileText returns an "file-text" Octicon SVG node.
+func FileText() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -3539,9 +3661,11 @@ var (
 			},
 		},
 	}
+}
 
-	// FileZip is an "file-zip" Octicon SVG node.
-	FileZip = &html.Node{
+// FileZip returns an "file-zip" Octicon SVG node.
+func FileZip() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -3596,9 +3720,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Flame is an "flame" Octicon SVG node.
-	Flame = &html.Node{
+// Flame returns an "flame" Octicon SVG node.
+func Flame() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -3653,9 +3779,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Fold is an "fold" Octicon SVG node.
-	Fold = &html.Node{
+// Fold returns an "fold" Octicon SVG node.
+func Fold() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -3710,9 +3838,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Gear is an "gear" Octicon SVG node.
-	Gear = &html.Node{
+// Gear returns an "gear" Octicon SVG node.
+func Gear() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -3767,9 +3897,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Gift is an "gift" Octicon SVG node.
-	Gift = &html.Node{
+// Gift returns an "gift" Octicon SVG node.
+func Gift() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -3824,9 +3956,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Gist is an "gist" Octicon SVG node.
-	Gist = &html.Node{
+// Gist returns an "gist" Octicon SVG node.
+func Gist() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -3881,9 +4015,11 @@ var (
 			},
 		},
 	}
+}
 
-	// GistSecret is an "gist-secret" Octicon SVG node.
-	GistSecret = &html.Node{
+// GistSecret returns an "gist-secret" Octicon SVG node.
+func GistSecret() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -3938,9 +4074,11 @@ var (
 			},
 		},
 	}
+}
 
-	// GitBranch is an "git-branch" Octicon SVG node.
-	GitBranch = &html.Node{
+// GitBranch returns an "git-branch" Octicon SVG node.
+func GitBranch() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -3995,9 +4133,11 @@ var (
 			},
 		},
 	}
+}
 
-	// GitCommit is an "git-commit" Octicon SVG node.
-	GitCommit = &html.Node{
+// GitCommit returns an "git-commit" Octicon SVG node.
+func GitCommit() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -4052,9 +4192,11 @@ var (
 			},
 		},
 	}
+}
 
-	// GitCompare is an "git-compare" Octicon SVG node.
-	GitCompare = &html.Node{
+// GitCompare returns an "git-compare" Octicon SVG node.
+func GitCompare() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -4109,9 +4251,11 @@ var (
 			},
 		},
 	}
+}
 
-	// GitMerge is an "git-merge" Octicon SVG node.
-	GitMerge = &html.Node{
+// GitMerge returns an "git-merge" Octicon SVG node.
+func GitMerge() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -4166,9 +4310,11 @@ var (
 			},
 		},
 	}
+}
 
-	// GitPullRequest is an "git-pull-request" Octicon SVG node.
-	GitPullRequest = &html.Node{
+// GitPullRequest returns an "git-pull-request" Octicon SVG node.
+func GitPullRequest() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -4223,9 +4369,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Globe is an "globe" Octicon SVG node.
-	Globe = &html.Node{
+// Globe returns an "globe" Octicon SVG node.
+func Globe() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -4280,9 +4428,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Grabber is an "grabber" Octicon SVG node.
-	Grabber = &html.Node{
+// Grabber returns an "grabber" Octicon SVG node.
+func Grabber() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -4337,9 +4487,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Graph is an "graph" Octicon SVG node.
-	Graph = &html.Node{
+// Graph returns an "graph" Octicon SVG node.
+func Graph() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -4394,9 +4546,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Heart is an "heart" Octicon SVG node.
-	Heart = &html.Node{
+// Heart returns an "heart" Octicon SVG node.
+func Heart() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -4451,9 +4605,11 @@ var (
 			},
 		},
 	}
+}
 
-	// History is an "history" Octicon SVG node.
-	History = &html.Node{
+// History returns an "history" Octicon SVG node.
+func History() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -4508,9 +4664,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Home is an "home" Octicon SVG node.
-	Home = &html.Node{
+// Home returns an "home" Octicon SVG node.
+func Home() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -4565,9 +4723,11 @@ var (
 			},
 		},
 	}
+}
 
-	// HorizontalRule is an "horizontal-rule" Octicon SVG node.
-	HorizontalRule = &html.Node{
+// HorizontalRule returns an "horizontal-rule" Octicon SVG node.
+func HorizontalRule() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -4622,9 +4782,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Hubot is an "hubot" Octicon SVG node.
-	Hubot = &html.Node{
+// Hubot returns an "hubot" Octicon SVG node.
+func Hubot() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -4679,9 +4841,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Inbox is an "inbox" Octicon SVG node.
-	Inbox = &html.Node{
+// Inbox returns an "inbox" Octicon SVG node.
+func Inbox() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -4736,9 +4900,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Info is an "info" Octicon SVG node.
-	Info = &html.Node{
+// Info returns an "info" Octicon SVG node.
+func Info() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -4793,9 +4959,11 @@ var (
 			},
 		},
 	}
+}
 
-	// IssueClosed is an "issue-closed" Octicon SVG node.
-	IssueClosed = &html.Node{
+// IssueClosed returns an "issue-closed" Octicon SVG node.
+func IssueClosed() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -4850,9 +5018,11 @@ var (
 			},
 		},
 	}
+}
 
-	// IssueOpened is an "issue-opened" Octicon SVG node.
-	IssueOpened = &html.Node{
+// IssueOpened returns an "issue-opened" Octicon SVG node.
+func IssueOpened() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -4907,9 +5077,11 @@ var (
 			},
 		},
 	}
+}
 
-	// IssueReopened is an "issue-reopened" Octicon SVG node.
-	IssueReopened = &html.Node{
+// IssueReopened returns an "issue-reopened" Octicon SVG node.
+func IssueReopened() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -4964,9 +5136,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Italic is an "italic" Octicon SVG node.
-	Italic = &html.Node{
+// Italic returns an "italic" Octicon SVG node.
+func Italic() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -5021,9 +5195,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Jersey is an "jersey" Octicon SVG node.
-	Jersey = &html.Node{
+// Jersey returns an "jersey" Octicon SVG node.
+func Jersey() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -5078,9 +5254,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Key is an "key" Octicon SVG node.
-	Key = &html.Node{
+// Key returns an "key" Octicon SVG node.
+func Key() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -5135,9 +5313,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Keyboard is an "keyboard" Octicon SVG node.
-	Keyboard = &html.Node{
+// Keyboard returns an "keyboard" Octicon SVG node.
+func Keyboard() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -5192,9 +5372,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Law is an "law" Octicon SVG node.
-	Law = &html.Node{
+// Law returns an "law" Octicon SVG node.
+func Law() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -5249,9 +5431,11 @@ var (
 			},
 		},
 	}
+}
 
-	// LightBulb is an "light-bulb" Octicon SVG node.
-	LightBulb = &html.Node{
+// LightBulb returns an "light-bulb" Octicon SVG node.
+func LightBulb() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -5306,9 +5490,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Link is an "link" Octicon SVG node.
-	Link = &html.Node{
+// Link returns an "link" Octicon SVG node.
+func Link() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -5363,9 +5549,11 @@ var (
 			},
 		},
 	}
+}
 
-	// LinkExternal is an "link-external" Octicon SVG node.
-	LinkExternal = &html.Node{
+// LinkExternal returns an "link-external" Octicon SVG node.
+func LinkExternal() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -5420,9 +5608,11 @@ var (
 			},
 		},
 	}
+}
 
-	// ListOrdered is an "list-ordered" Octicon SVG node.
-	ListOrdered = &html.Node{
+// ListOrdered returns an "list-ordered" Octicon SVG node.
+func ListOrdered() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -5477,9 +5667,11 @@ var (
 			},
 		},
 	}
+}
 
-	// ListUnordered is an "list-unordered" Octicon SVG node.
-	ListUnordered = &html.Node{
+// ListUnordered returns an "list-unordered" Octicon SVG node.
+func ListUnordered() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -5534,9 +5726,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Location is an "location" Octicon SVG node.
-	Location = &html.Node{
+// Location returns an "location" Octicon SVG node.
+func Location() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -5591,9 +5785,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Lock is an "lock" Octicon SVG node.
-	Lock = &html.Node{
+// Lock returns an "lock" Octicon SVG node.
+func Lock() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -5648,9 +5844,11 @@ var (
 			},
 		},
 	}
+}
 
-	// LogoGist is an "logo-gist" Octicon SVG node.
-	LogoGist = &html.Node{
+// LogoGist returns an "logo-gist" Octicon SVG node.
+func LogoGist() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -5705,9 +5903,11 @@ var (
 			},
 		},
 	}
+}
 
-	// LogoGithub is an "logo-github" Octicon SVG node.
-	LogoGithub = &html.Node{
+// LogoGithub returns an "logo-github" Octicon SVG node.
+func LogoGithub() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -5762,9 +5962,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Mail is an "mail" Octicon SVG node.
-	Mail = &html.Node{
+// Mail returns an "mail" Octicon SVG node.
+func Mail() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -5819,9 +6021,11 @@ var (
 			},
 		},
 	}
+}
 
-	// MailRead is an "mail-read" Octicon SVG node.
-	MailRead = &html.Node{
+// MailRead returns an "mail-read" Octicon SVG node.
+func MailRead() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -5876,9 +6080,11 @@ var (
 			},
 		},
 	}
+}
 
-	// MailReply is an "mail-reply" Octicon SVG node.
-	MailReply = &html.Node{
+// MailReply returns an "mail-reply" Octicon SVG node.
+func MailReply() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -5933,9 +6139,11 @@ var (
 			},
 		},
 	}
+}
 
-	// MarkGithub is an "mark-github" Octicon SVG node.
-	MarkGithub = &html.Node{
+// MarkGithub returns an "mark-github" Octicon SVG node.
+func MarkGithub() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -5990,9 +6198,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Markdown is an "markdown" Octicon SVG node.
-	Markdown = &html.Node{
+// Markdown returns an "markdown" Octicon SVG node.
+func Markdown() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -6047,9 +6257,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Megaphone is an "megaphone" Octicon SVG node.
-	Megaphone = &html.Node{
+// Megaphone returns an "megaphone" Octicon SVG node.
+func Megaphone() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -6104,9 +6316,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Mention is an "mention" Octicon SVG node.
-	Mention = &html.Node{
+// Mention returns an "mention" Octicon SVG node.
+func Mention() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -6161,9 +6375,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Milestone is an "milestone" Octicon SVG node.
-	Milestone = &html.Node{
+// Milestone returns an "milestone" Octicon SVG node.
+func Milestone() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -6218,9 +6434,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Mirror is an "mirror" Octicon SVG node.
-	Mirror = &html.Node{
+// Mirror returns an "mirror" Octicon SVG node.
+func Mirror() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -6275,9 +6493,11 @@ var (
 			},
 		},
 	}
+}
 
-	// MortarBoard is an "mortar-board" Octicon SVG node.
-	MortarBoard = &html.Node{
+// MortarBoard returns an "mortar-board" Octicon SVG node.
+func MortarBoard() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -6332,9 +6552,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Mute is an "mute" Octicon SVG node.
-	Mute = &html.Node{
+// Mute returns an "mute" Octicon SVG node.
+func Mute() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -6389,9 +6611,11 @@ var (
 			},
 		},
 	}
+}
 
-	// NoNewline is an "no-newline" Octicon SVG node.
-	NoNewline = &html.Node{
+// NoNewline returns an "no-newline" Octicon SVG node.
+func NoNewline() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -6446,9 +6670,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Octoface is an "octoface" Octicon SVG node.
-	Octoface = &html.Node{
+// Octoface returns an "octoface" Octicon SVG node.
+func Octoface() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -6503,9 +6729,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Organization is an "organization" Octicon SVG node.
-	Organization = &html.Node{
+// Organization returns an "organization" Octicon SVG node.
+func Organization() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -6560,9 +6788,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Package is an "package" Octicon SVG node.
-	Package = &html.Node{
+// Package returns an "package" Octicon SVG node.
+func Package() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -6617,9 +6847,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Paintcan is an "paintcan" Octicon SVG node.
-	Paintcan = &html.Node{
+// Paintcan returns an "paintcan" Octicon SVG node.
+func Paintcan() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -6674,9 +6906,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Pencil is an "pencil" Octicon SVG node.
-	Pencil = &html.Node{
+// Pencil returns an "pencil" Octicon SVG node.
+func Pencil() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -6731,9 +6965,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Person is an "person" Octicon SVG node.
-	Person = &html.Node{
+// Person returns an "person" Octicon SVG node.
+func Person() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -6788,9 +7024,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Pin is an "pin" Octicon SVG node.
-	Pin = &html.Node{
+// Pin returns an "pin" Octicon SVG node.
+func Pin() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -6845,9 +7083,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Plug is an "plug" Octicon SVG node.
-	Plug = &html.Node{
+// Plug returns an "plug" Octicon SVG node.
+func Plug() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -6902,9 +7142,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Plus is an "plus" Octicon SVG node.
-	Plus = &html.Node{
+// Plus returns an "plus" Octicon SVG node.
+func Plus() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -6959,9 +7201,11 @@ var (
 			},
 		},
 	}
+}
 
-	// PlusSmall is an "plus-small" Octicon SVG node.
-	PlusSmall = &html.Node{
+// PlusSmall returns an "plus-small" Octicon SVG node.
+func PlusSmall() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -7016,9 +7260,11 @@ var (
 			},
 		},
 	}
+}
 
-	// PrimitiveDot is an "primitive-dot" Octicon SVG node.
-	PrimitiveDot = &html.Node{
+// PrimitiveDot returns an "primitive-dot" Octicon SVG node.
+func PrimitiveDot() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -7073,9 +7319,11 @@ var (
 			},
 		},
 	}
+}
 
-	// PrimitiveSquare is an "primitive-square" Octicon SVG node.
-	PrimitiveSquare = &html.Node{
+// PrimitiveSquare returns an "primitive-square" Octicon SVG node.
+func PrimitiveSquare() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -7130,9 +7378,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Pulse is an "pulse" Octicon SVG node.
-	Pulse = &html.Node{
+// Pulse returns an "pulse" Octicon SVG node.
+func Pulse() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -7187,9 +7437,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Question is an "question" Octicon SVG node.
-	Question = &html.Node{
+// Question returns an "question" Octicon SVG node.
+func Question() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -7244,9 +7496,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Quote is an "quote" Octicon SVG node.
-	Quote = &html.Node{
+// Quote returns an "quote" Octicon SVG node.
+func Quote() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -7301,9 +7555,11 @@ var (
 			},
 		},
 	}
+}
 
-	// RadioTower is an "radio-tower" Octicon SVG node.
-	RadioTower = &html.Node{
+// RadioTower returns an "radio-tower" Octicon SVG node.
+func RadioTower() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -7358,9 +7614,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Reply is an "reply" Octicon SVG node.
-	Reply = &html.Node{
+// Reply returns an "reply" Octicon SVG node.
+func Reply() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -7415,9 +7673,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Repo is an "repo" Octicon SVG node.
-	Repo = &html.Node{
+// Repo returns an "repo" Octicon SVG node.
+func Repo() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -7472,9 +7732,11 @@ var (
 			},
 		},
 	}
+}
 
-	// RepoClone is an "repo-clone" Octicon SVG node.
-	RepoClone = &html.Node{
+// RepoClone returns an "repo-clone" Octicon SVG node.
+func RepoClone() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -7529,9 +7791,11 @@ var (
 			},
 		},
 	}
+}
 
-	// RepoForcePush is an "repo-force-push" Octicon SVG node.
-	RepoForcePush = &html.Node{
+// RepoForcePush returns an "repo-force-push" Octicon SVG node.
+func RepoForcePush() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -7586,9 +7850,11 @@ var (
 			},
 		},
 	}
+}
 
-	// RepoForked is an "repo-forked" Octicon SVG node.
-	RepoForked = &html.Node{
+// RepoForked returns an "repo-forked" Octicon SVG node.
+func RepoForked() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -7643,9 +7909,11 @@ var (
 			},
 		},
 	}
+}
 
-	// RepoPull is an "repo-pull" Octicon SVG node.
-	RepoPull = &html.Node{
+// RepoPull returns an "repo-pull" Octicon SVG node.
+func RepoPull() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -7700,9 +7968,11 @@ var (
 			},
 		},
 	}
+}
 
-	// RepoPush is an "repo-push" Octicon SVG node.
-	RepoPush = &html.Node{
+// RepoPush returns an "repo-push" Octicon SVG node.
+func RepoPush() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -7757,9 +8027,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Rocket is an "rocket" Octicon SVG node.
-	Rocket = &html.Node{
+// Rocket returns an "rocket" Octicon SVG node.
+func Rocket() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -7814,9 +8086,11 @@ var (
 			},
 		},
 	}
+}
 
-	// RSS is an "rss" Octicon SVG node.
-	RSS = &html.Node{
+// RSS returns an "rss" Octicon SVG node.
+func RSS() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -7871,9 +8145,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Ruby is an "ruby" Octicon SVG node.
-	Ruby = &html.Node{
+// Ruby returns an "ruby" Octicon SVG node.
+func Ruby() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -7928,9 +8204,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Search is an "search" Octicon SVG node.
-	Search = &html.Node{
+// Search returns an "search" Octicon SVG node.
+func Search() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -7985,9 +8263,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Server is an "server" Octicon SVG node.
-	Server = &html.Node{
+// Server returns an "server" Octicon SVG node.
+func Server() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -8042,9 +8322,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Settings is an "settings" Octicon SVG node.
-	Settings = &html.Node{
+// Settings returns an "settings" Octicon SVG node.
+func Settings() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -8099,9 +8381,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Shield is an "shield" Octicon SVG node.
-	Shield = &html.Node{
+// Shield returns an "shield" Octicon SVG node.
+func Shield() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -8156,9 +8440,11 @@ var (
 			},
 		},
 	}
+}
 
-	// SignIn is an "sign-in" Octicon SVG node.
-	SignIn = &html.Node{
+// SignIn returns an "sign-in" Octicon SVG node.
+func SignIn() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -8213,9 +8499,11 @@ var (
 			},
 		},
 	}
+}
 
-	// SignOut is an "sign-out" Octicon SVG node.
-	SignOut = &html.Node{
+// SignOut returns an "sign-out" Octicon SVG node.
+func SignOut() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -8270,9 +8558,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Smiley is an "smiley" Octicon SVG node.
-	Smiley = &html.Node{
+// Smiley returns an "smiley" Octicon SVG node.
+func Smiley() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -8327,9 +8617,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Squirrel is an "squirrel" Octicon SVG node.
-	Squirrel = &html.Node{
+// Squirrel returns an "squirrel" Octicon SVG node.
+func Squirrel() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -8384,9 +8676,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Star is an "star" Octicon SVG node.
-	Star = &html.Node{
+// Star returns an "star" Octicon SVG node.
+func Star() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -8441,9 +8735,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Stop is an "stop" Octicon SVG node.
-	Stop = &html.Node{
+// Stop returns an "stop" Octicon SVG node.
+func Stop() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -8498,9 +8794,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Sync is an "sync" Octicon SVG node.
-	Sync = &html.Node{
+// Sync returns an "sync" Octicon SVG node.
+func Sync() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -8555,9 +8853,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Tag is an "tag" Octicon SVG node.
-	Tag = &html.Node{
+// Tag returns an "tag" Octicon SVG node.
+func Tag() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -8612,9 +8912,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Tasklist is an "tasklist" Octicon SVG node.
-	Tasklist = &html.Node{
+// Tasklist returns an "tasklist" Octicon SVG node.
+func Tasklist() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -8669,9 +8971,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Telescope is an "telescope" Octicon SVG node.
-	Telescope = &html.Node{
+// Telescope returns an "telescope" Octicon SVG node.
+func Telescope() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -8726,9 +9030,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Terminal is an "terminal" Octicon SVG node.
-	Terminal = &html.Node{
+// Terminal returns an "terminal" Octicon SVG node.
+func Terminal() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -8783,9 +9089,11 @@ var (
 			},
 		},
 	}
+}
 
-	// TextSize is an "text-size" Octicon SVG node.
-	TextSize = &html.Node{
+// TextSize returns an "text-size" Octicon SVG node.
+func TextSize() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -8840,9 +9148,11 @@ var (
 			},
 		},
 	}
+}
 
-	// ThreeBars is an "three-bars" Octicon SVG node.
-	ThreeBars = &html.Node{
+// ThreeBars returns an "three-bars" Octicon SVG node.
+func ThreeBars() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -8897,9 +9207,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Thumbsdown is an "thumbsdown" Octicon SVG node.
-	Thumbsdown = &html.Node{
+// Thumbsdown returns an "thumbsdown" Octicon SVG node.
+func Thumbsdown() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -8954,9 +9266,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Thumbsup is an "thumbsup" Octicon SVG node.
-	Thumbsup = &html.Node{
+// Thumbsup returns an "thumbsup" Octicon SVG node.
+func Thumbsup() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -9011,9 +9325,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Tools is an "tools" Octicon SVG node.
-	Tools = &html.Node{
+// Tools returns an "tools" Octicon SVG node.
+func Tools() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -9068,9 +9384,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Trashcan is an "trashcan" Octicon SVG node.
-	Trashcan = &html.Node{
+// Trashcan returns an "trashcan" Octicon SVG node.
+func Trashcan() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -9125,9 +9443,11 @@ var (
 			},
 		},
 	}
+}
 
-	// TriangleDown is an "triangle-down" Octicon SVG node.
-	TriangleDown = &html.Node{
+// TriangleDown returns an "triangle-down" Octicon SVG node.
+func TriangleDown() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -9182,9 +9502,11 @@ var (
 			},
 		},
 	}
+}
 
-	// TriangleLeft is an "triangle-left" Octicon SVG node.
-	TriangleLeft = &html.Node{
+// TriangleLeft returns an "triangle-left" Octicon SVG node.
+func TriangleLeft() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -9239,9 +9561,11 @@ var (
 			},
 		},
 	}
+}
 
-	// TriangleRight is an "triangle-right" Octicon SVG node.
-	TriangleRight = &html.Node{
+// TriangleRight returns an "triangle-right" Octicon SVG node.
+func TriangleRight() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -9296,9 +9620,11 @@ var (
 			},
 		},
 	}
+}
 
-	// TriangleUp is an "triangle-up" Octicon SVG node.
-	TriangleUp = &html.Node{
+// TriangleUp returns an "triangle-up" Octicon SVG node.
+func TriangleUp() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -9353,9 +9679,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Unfold is an "unfold" Octicon SVG node.
-	Unfold = &html.Node{
+// Unfold returns an "unfold" Octicon SVG node.
+func Unfold() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -9410,9 +9738,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Unmute is an "unmute" Octicon SVG node.
-	Unmute = &html.Node{
+// Unmute returns an "unmute" Octicon SVG node.
+func Unmute() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -9467,9 +9797,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Unverified is an "unverified" Octicon SVG node.
-	Unverified = &html.Node{
+// Unverified returns an "unverified" Octicon SVG node.
+func Unverified() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -9524,9 +9856,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Verified is an "verified" Octicon SVG node.
-	Verified = &html.Node{
+// Verified returns an "verified" Octicon SVG node.
+func Verified() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -9581,9 +9915,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Versions is an "versions" Octicon SVG node.
-	Versions = &html.Node{
+// Versions returns an "versions" Octicon SVG node.
+func Versions() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -9638,9 +9974,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Watch is an "watch" Octicon SVG node.
-	Watch = &html.Node{
+// Watch returns an "watch" Octicon SVG node.
+func Watch() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -9695,9 +10033,11 @@ var (
 			},
 		},
 	}
+}
 
-	// X is an "x" Octicon SVG node.
-	X = &html.Node{
+// X returns an "x" Octicon SVG node.
+func X() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -9752,9 +10092,11 @@ var (
 			},
 		},
 	}
+}
 
-	// Zap is an "zap" Octicon SVG node.
-	Zap = &html.Node{
+// Zap returns an "zap" Octicon SVG node.
+func Zap() *html.Node {
+	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
 			Parent:      (*html.Node)(nil),
@@ -9809,4 +10151,4 @@ var (
 			},
 		},
 	}
-)
+}

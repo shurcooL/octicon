@@ -25,7 +25,7 @@ var oFlag = flag.String("o", "", "write output to `file` (default standard outpu
 
 func run() error {
 	var r io.Reader
-	switch 0 {
+	switch 1 {
 	case 0:
 		// TODO: Use tagged release starting with v4.4.0 when it's out, instead of master.
 		resp, err := http.Get("https://raw.githubusercontent.com/primer/octicons/master/build/svg.json")
@@ -65,18 +65,16 @@ import (
 	"golang.org/x/net/html"
 	"golang.org/x/net/html/atom"
 )
-
-var (
 `)
 	for i := range names {
 		processOcticon(&buf, octicons, names[i])
 	}
-	fmt.Fprint(&buf, ")\n")
 
 	b, err := format.Source(buf.Bytes())
 	if err != nil {
-		return err
+		return fmt.Errorf("error from format.Source(): %v", err)
 	}
+	//b := buf.Bytes()
 
 	var w io.Writer
 	switch *oFlag {
@@ -105,10 +103,12 @@ func processOcticon(w io.Writer, octicons map[string]string, name string) {
 	svg.LastChild = nil
 	svg.FirstChild.Parent = nil
 
-	fmt.Fprintf(w, "	// %s is an %q Octicon SVG node.\n", dashSepToMixedCaps(name), name)
-	fmt.Fprintf(w, "	%s = ", dashSepToMixedCaps(name))
-	goon.Fdump(w, svg)
 	fmt.Fprintln(w)
+	fmt.Fprintf(w, "// %s returns an %q Octicon SVG node.\n", dashSepToMixedCaps(name), name)
+	fmt.Fprintf(w, "func %s() *html.Node {\n", dashSepToMixedCaps(name))
+	fmt.Fprint(w, "	return ")
+	goon.Fdump(w, svg)
+	fmt.Fprintln(w, "}")
 }
 
 func main() {
