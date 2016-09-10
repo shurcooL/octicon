@@ -1,4 +1,4 @@
-package octicons
+package octiconssvg
 
 import (
 	"golang.org/x/net/html"

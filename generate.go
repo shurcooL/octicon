@@ -59,7 +59,7 @@ func run() error {
 	sort.Strings(names)
 
 	var buf bytes.Buffer
-	fmt.Fprint(&buf, `package octicons
+	fmt.Fprint(&buf, `package octiconssvg
 
 import (
 	"golang.org/x/net/html"
