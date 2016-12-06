@@ -105,7 +105,7 @@ func main() {
 func parseOcticon(svgXML string) *html.Node {
 	e, err := html.ParseFragment(strings.NewReader(svgXML), nil)
 	if err != nil {
-		panic(fmt.Errorf("internal error: html.Parse failed: %v", err))
+		panic(fmt.Errorf("internal error: html.ParseFragment failed: %v", err))
 	}
 	svg := e[0].LastChild.FirstChild // TODO: Is there a better way to just get the <svg>...</svg> element directly, skipping <html><head></head><body><svg>...</svg></body></html>?
 	svg.Parent.RemoveChild(svg)
@@ -115,7 +115,7 @@ func parseOcticon(svgXML string) *html.Node {
 			break
 		}
 	}
-	svg.Attr = append(svg.Attr, html.Attribute{Key: atom.Style.String(), Val: `vertical-align: top;`})
+	svg.Attr = append(svg.Attr, html.Attribute{Key: atom.Style.String(), Val: `fill: currentColor; vertical-align: top;`})
 	return svg
 }
 

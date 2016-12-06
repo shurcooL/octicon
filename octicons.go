@@ -58,7 +58,7 @@ func Alert() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -117,7 +117,7 @@ func ArrowDown() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -176,7 +176,7 @@ func ArrowLeft() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -235,7 +235,7 @@ func ArrowRight() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -294,7 +294,7 @@ func ArrowSmallDown() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -353,7 +353,7 @@ func ArrowSmallLeft() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -412,7 +412,7 @@ func ArrowSmallRight() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -471,7 +471,7 @@ func ArrowSmallUp() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -530,7 +530,7 @@ func ArrowUp() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -589,7 +589,7 @@ func Beaker() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -648,7 +648,7 @@ func Bell() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -707,7 +707,7 @@ func Bold() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -766,7 +766,7 @@ func Book() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -825,7 +825,7 @@ func Bookmark() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -884,7 +884,7 @@ func Briefcase() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -943,7 +943,7 @@ func Broadcast() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -1002,7 +1002,7 @@ func Browser() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -1061,7 +1061,7 @@ func Bug() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -1120,7 +1120,7 @@ func Calendar() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -1179,7 +1179,7 @@ func Check() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -1238,7 +1238,7 @@ func Checklist() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -1297,7 +1297,7 @@ func ChevronDown() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -1356,7 +1356,7 @@ func ChevronLeft() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -1415,7 +1415,7 @@ func ChevronRight() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -1474,7 +1474,7 @@ func ChevronUp() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -1533,7 +1533,7 @@ func CircleSlash() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -1592,7 +1592,7 @@ func CircuitBoard() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -1651,7 +1651,7 @@ func Clippy() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -1710,7 +1710,7 @@ func Clock() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -1769,7 +1769,7 @@ func CloudDownload() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -1828,7 +1828,7 @@ func CloudUpload() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -1887,7 +1887,7 @@ func Code() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -1946,7 +1946,7 @@ func Comment() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -2005,7 +2005,7 @@ func CommentDiscussion() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -2064,7 +2064,7 @@ func CreditCard() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -2123,7 +2123,7 @@ func Dash() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -2182,7 +2182,7 @@ func Dashboard() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -2241,7 +2241,7 @@ func Database() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -2300,7 +2300,7 @@ func DesktopDownload() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -2359,7 +2359,7 @@ func DeviceCamera() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -2418,7 +2418,7 @@ func DeviceCameraVideo() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -2477,7 +2477,7 @@ func DeviceDesktop() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -2536,7 +2536,7 @@ func DeviceMobile() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -2595,7 +2595,7 @@ func Diff() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -2654,7 +2654,7 @@ func DiffAdded() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -2713,7 +2713,7 @@ func DiffIgnored() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -2772,7 +2772,7 @@ func DiffModified() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -2831,7 +2831,7 @@ func DiffRemoved() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -2890,7 +2890,7 @@ func DiffRenamed() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -2949,7 +2949,7 @@ func Ellipses() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -3008,7 +3008,7 @@ func Ellipsis() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -3067,7 +3067,7 @@ func Eye() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -3126,7 +3126,7 @@ func File() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -3185,7 +3185,7 @@ func FileBinary() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -3244,7 +3244,7 @@ func FileCode() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -3303,7 +3303,7 @@ func FileDirectory() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -3362,7 +3362,7 @@ func FileMedia() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -3421,7 +3421,7 @@ func FilePdf() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -3480,7 +3480,7 @@ func FileSubmodule() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -3539,7 +3539,7 @@ func FileSymlinkDirectory() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -3598,7 +3598,7 @@ func FileSymlinkFile() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -3657,7 +3657,7 @@ func FileText() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -3716,7 +3716,7 @@ func FileZip() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -3775,7 +3775,7 @@ func Flame() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -3834,7 +3834,7 @@ func Fold() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -3893,7 +3893,7 @@ func Gear() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -3952,7 +3952,7 @@ func Gift() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -4011,7 +4011,7 @@ func Gist() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -4070,7 +4070,7 @@ func GistSecret() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -4129,7 +4129,7 @@ func GitBranch() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -4188,7 +4188,7 @@ func GitCommit() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -4247,7 +4247,7 @@ func GitCompare() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -4306,7 +4306,7 @@ func GitMerge() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -4365,7 +4365,7 @@ func GitPullRequest() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -4424,7 +4424,7 @@ func Globe() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -4483,7 +4483,7 @@ func Grabber() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -4542,7 +4542,7 @@ func Graph() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -4601,7 +4601,7 @@ func Heart() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -4660,7 +4660,7 @@ func History() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -4719,7 +4719,7 @@ func Home() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -4778,7 +4778,7 @@ func HorizontalRule() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -4837,7 +4837,7 @@ func Hubot() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -4896,7 +4896,7 @@ func Inbox() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -4955,7 +4955,7 @@ func Info() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -5014,7 +5014,7 @@ func IssueClosed() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -5073,7 +5073,7 @@ func IssueOpened() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -5132,7 +5132,7 @@ func IssueReopened() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -5191,7 +5191,7 @@ func Italic() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -5250,7 +5250,7 @@ func Jersey() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -5309,7 +5309,7 @@ func Key() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -5368,7 +5368,7 @@ func Keyboard() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -5427,7 +5427,7 @@ func Law() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -5486,7 +5486,7 @@ func LightBulb() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -5545,7 +5545,7 @@ func Link() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -5604,7 +5604,7 @@ func LinkExternal() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -5663,7 +5663,7 @@ func ListOrdered() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -5722,7 +5722,7 @@ func ListUnordered() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -5781,7 +5781,7 @@ func Location() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -5840,7 +5840,7 @@ func Lock() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -5899,7 +5899,7 @@ func LogoGist() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -5958,7 +5958,7 @@ func LogoGithub() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -6017,7 +6017,7 @@ func Mail() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -6076,7 +6076,7 @@ func MailRead() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -6135,7 +6135,7 @@ func MailReply() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -6194,7 +6194,7 @@ func MarkGithub() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -6253,7 +6253,7 @@ func Markdown() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -6312,7 +6312,7 @@ func Megaphone() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -6371,7 +6371,7 @@ func Mention() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -6430,7 +6430,7 @@ func Milestone() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -6489,7 +6489,7 @@ func Mirror() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -6548,7 +6548,7 @@ func MortarBoard() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -6607,7 +6607,7 @@ func Mute() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -6666,7 +6666,7 @@ func NoNewline() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -6725,7 +6725,7 @@ func Octoface() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -6784,7 +6784,7 @@ func Organization() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -6843,7 +6843,7 @@ func Package() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -6902,7 +6902,7 @@ func Paintcan() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -6961,7 +6961,7 @@ func Pencil() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -7020,7 +7020,7 @@ func Person() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -7079,7 +7079,7 @@ func Pin() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -7138,7 +7138,7 @@ func Plug() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -7197,7 +7197,7 @@ func Plus() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -7256,7 +7256,7 @@ func PlusSmall() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -7315,7 +7315,7 @@ func PrimitiveDot() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -7374,7 +7374,7 @@ func PrimitiveSquare() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -7433,7 +7433,7 @@ func Pulse() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -7492,7 +7492,7 @@ func Question() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -7551,7 +7551,7 @@ func Quote() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -7610,7 +7610,7 @@ func RadioTower() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -7669,7 +7669,7 @@ func Reply() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -7728,7 +7728,7 @@ func Repo() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -7787,7 +7787,7 @@ func RepoClone() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -7846,7 +7846,7 @@ func RepoForcePush() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -7905,7 +7905,7 @@ func RepoForked() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -7964,7 +7964,7 @@ func RepoPull() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -8023,7 +8023,7 @@ func RepoPush() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -8082,7 +8082,7 @@ func Rocket() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -8141,7 +8141,7 @@ func RSS() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -8200,7 +8200,7 @@ func Ruby() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -8259,7 +8259,7 @@ func Search() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -8318,7 +8318,7 @@ func Server() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -8377,7 +8377,7 @@ func Settings() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -8436,7 +8436,7 @@ func Shield() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -8495,7 +8495,7 @@ func SignIn() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -8554,7 +8554,7 @@ func SignOut() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -8613,7 +8613,7 @@ func Smiley() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -8672,7 +8672,7 @@ func Squirrel() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -8731,7 +8731,7 @@ func Star() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -8790,7 +8790,7 @@ func Stop() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -8849,7 +8849,7 @@ func Sync() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -8908,7 +8908,7 @@ func Tag() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -8967,7 +8967,7 @@ func Tasklist() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -9026,7 +9026,7 @@ func Telescope() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -9085,7 +9085,7 @@ func Terminal() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -9144,7 +9144,7 @@ func TextSize() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -9203,7 +9203,7 @@ func ThreeBars() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -9262,7 +9262,7 @@ func Thumbsdown() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -9321,7 +9321,7 @@ func Thumbsup() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -9380,7 +9380,7 @@ func Tools() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -9439,7 +9439,7 @@ func Trashcan() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -9498,7 +9498,7 @@ func TriangleDown() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -9557,7 +9557,7 @@ func TriangleLeft() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -9616,7 +9616,7 @@ func TriangleRight() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -9675,7 +9675,7 @@ func TriangleUp() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -9734,7 +9734,7 @@ func Unfold() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -9793,7 +9793,7 @@ func Unmute() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -9852,7 +9852,7 @@ func Unverified() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -9911,7 +9911,7 @@ func Verified() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -9970,7 +9970,7 @@ func Versions() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -10029,7 +10029,7 @@ func Watch() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -10088,7 +10088,7 @@ func X() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
@@ -10147,7 +10147,7 @@ func Zap() *html.Node {
 			{
 				Namespace: (string)(""),
 				Key:       (string)("style"),
-				Val:       (string)("vertical-align: top;"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
 			},
 		},
 	}
