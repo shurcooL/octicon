@@ -22,6 +22,15 @@ import (
 
 var oFlag = flag.String("o", "", "write output to `file` (default standard output)")
 
+func main() {
+	flag.Parse()
+
+	err := run()
+	if err != nil {
+		log.Fatalln(err)
+	}
+}
+
 func run() error {
 	f, err := os.Open(filepath.Join("_data", "svg.json"))
 	if err != nil {
@@ -48,9 +57,22 @@ import (
 	"golang.org/x/net/html"
 	"golang.org/x/net/html/atom"
 )
+
+// Icon returns the named Octicon SVG node.
+// It returns nil if name is not a valid Octicon symbol name.
+func Icon(name string) *html.Node {
+	switch name {
 `)
-	for i := range names {
-		processOcticon(&buf, octicons, names[i])
+	for _, name := range names {
+		fmt.Fprintf(&buf, "	case %q:\n		return %v()\n", name, dashSepToMixedCaps(name))
+	}
+	fmt.Fprint(&buf, `	default:
+		return nil
+	}
+}
+`)
+	for _, name := range names {
+		processOcticon(&buf, octicons, name)
 	}
 
 	b, err := format.Source(buf.Bytes())
@@ -91,15 +113,6 @@ func processOcticon(w io.Writer, octicons map[string]string, name string) {
 	fmt.Fprint(w, "	return ")
 	goon.Fdump(w, svg)
 	fmt.Fprintln(w, "}")
-}
-
-func main() {
-	flag.Parse()
-
-	err := run()
-	if err != nil {
-		log.Fatalln(err)
-	}
 }
 
 func parseOcticon(svgXML string) *html.Node {
