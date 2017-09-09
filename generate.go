@@ -32,13 +32,13 @@ func main() {
 }
 
 func run() error {
-	f, err := os.Open(filepath.Join("_data", "svg.json"))
+	f, err := os.Open(filepath.Join("_data", "data.json"))
 	if err != nil {
 		return err
 	}
 	defer f.Close()
 
-	var octicons map[string]string
+	var octicons map[string]octicon
 	err = json.NewDecoder(f).Decode(&octicons)
 	if err != nil {
 		return err
@@ -97,8 +97,15 @@ func Icon(name string) *html.Node {
 	return err
 }
 
-func processOcticon(w io.Writer, octicons map[string]string, name string) {
-	svg := parseOcticon(octicons[name])
+type octicon struct {
+	Path   string
+	Width  int `json:",string"`
+	Height int `json:",string"`
+}
+
+func processOcticon(w io.Writer, octicons map[string]octicon, name string) {
+	svgXML := generateOcticon(octicons[name])
+	svg := parseOcticon(svgXML)
 
 	// Clear these fields to remove cycles in the data structure, since go-goon
 	// cannot print those in a way that's valid Go code. The generated data structure
@@ -113,6 +120,16 @@ func processOcticon(w io.Writer, octicons map[string]string, name string) {
 	fmt.Fprint(w, "	return ")
 	goon.Fdump(w, svg)
 	fmt.Fprintln(w, "}")
+}
+
+func generateOcticon(o octicon) (svgXML string) {
+	path := o.Path
+	if strings.HasPrefix(path, `<path fill-rule="evenodd" `) {
+		// Skip fill-rule, if present. It has no effect on displayed SVG, but takes up space.
+		path = `<path ` + path[len(`<path fill-rule="evenodd" `):]
+	}
+	return fmt.Sprintf(`<svg xmlns="http://www.w3.org/2000/svg" width="%d" height="%d" viewBox="0 0 %d %d">%s</svg>`,
+		o.Width, o.Height, o.Width, o.Height, path)
 }
 
 func parseOcticon(svgXML string) *html.Node {

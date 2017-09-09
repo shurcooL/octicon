@@ -107,8 +107,6 @@ func Icon(name string) *html.Node {
 		return DiffRemoved()
 	case "diff-renamed":
 		return DiffRenamed()
-	case "ellipses":
-		return Ellipses()
 	case "ellipsis":
 		return Ellipsis()
 	case "eye":
@@ -187,6 +185,10 @@ func Icon(name string) *html.Node {
 		return Italic()
 	case "jersey":
 		return Jersey()
+	case "kebab-horizontal":
+		return KebabHorizontal()
+	case "kebab-vertical":
+		return KebabVertical()
 	case "key":
 		return Key()
 	case "keyboard":
@@ -235,6 +237,8 @@ func Icon(name string) *html.Node {
 		return Mute()
 	case "no-newline":
 		return NoNewline()
+	case "note":
+		return Note()
 	case "octoface":
 		return Octoface()
 	case "organization":
@@ -259,6 +263,8 @@ func Icon(name string) *html.Node {
 		return PrimitiveDot()
 	case "primitive-square":
 		return PrimitiveSquare()
+	case "project":
+		return Project()
 	case "pulse":
 		return Pulse()
 	case "question":
@@ -287,6 +293,10 @@ func Icon(name string) *html.Node {
 		return RSS()
 	case "ruby":
 		return Ruby()
+	case "screen-full":
+		return ScreenFull()
+	case "screen-normal":
+		return ScreenNormal()
 	case "search":
 		return Search()
 	case "server":
@@ -3249,65 +3259,6 @@ func DiffRenamed() *html.Node {
 	}
 }
 
-// Ellipses returns an "ellipses" Octicon SVG node.
-func Ellipses() *html.Node {
-	return &html.Node{
-		Parent: (*html.Node)(nil),
-		FirstChild: &html.Node{
-			Parent:      (*html.Node)(nil),
-			FirstChild:  (*html.Node)(nil),
-			LastChild:   (*html.Node)(nil),
-			PrevSibling: (*html.Node)(nil),
-			NextSibling: (*html.Node)(nil),
-			Type:        (html.NodeType)(3),
-			DataAtom:    (atom.Atom)(0),
-			Data:        (string)("path"),
-			Namespace:   (string)("svg"),
-			Attr: []html.Attribute{
-				{
-					Namespace: (string)(""),
-					Key:       (string)("d"),
-					Val:       (string)("M11 5H1c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1h10c.55 0 1-.45 1-1V6c0-.55-.45-1-1-1zM4 9H2V7h2v2zm3 0H5V7h2v2zm3 0H8V7h2v2z"),
-				},
-			},
-		},
-		LastChild:   (*html.Node)(nil),
-		PrevSibling: (*html.Node)(nil),
-		NextSibling: (*html.Node)(nil),
-		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
-		Data:        (string)("svg"),
-		Namespace:   (string)("svg"),
-		Attr: []html.Attribute{
-			{
-				Namespace: (string)(""),
-				Key:       (string)("xmlns"),
-				Val:       (string)("http://www.w3.org/2000/svg"),
-			},
-			{
-				Namespace: (string)(""),
-				Key:       (string)("width"),
-				Val:       (string)("16"),
-			},
-			{
-				Namespace: (string)(""),
-				Key:       (string)("height"),
-				Val:       (string)("16"),
-			},
-			{
-				Namespace: (string)(""),
-				Key:       (string)("viewBox"),
-				Val:       (string)("0 0 12 16"),
-			},
-			{
-				Namespace: (string)(""),
-				Key:       (string)("style"),
-				Val:       (string)("fill: currentColor; vertical-align: top;"),
-			},
-		},
-	}
-}
-
 // Ellipsis returns an "ellipsis" Octicon SVG node.
 func Ellipsis() *html.Node {
 	return &html.Node{
@@ -5609,6 +5560,124 @@ func Jersey() *html.Node {
 	}
 }
 
+// KebabHorizontal returns an "kebab-horizontal" Octicon SVG node.
+func KebabHorizontal() *html.Node {
+	return &html.Node{
+		Parent: (*html.Node)(nil),
+		FirstChild: &html.Node{
+			Parent:      (*html.Node)(nil),
+			FirstChild:  (*html.Node)(nil),
+			LastChild:   (*html.Node)(nil),
+			PrevSibling: (*html.Node)(nil),
+			NextSibling: (*html.Node)(nil),
+			Type:        (html.NodeType)(3),
+			DataAtom:    (atom.Atom)(0),
+			Data:        (string)("path"),
+			Namespace:   (string)("svg"),
+			Attr: []html.Attribute{
+				{
+					Namespace: (string)(""),
+					Key:       (string)("d"),
+					Val:       (string)("M1.5 9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"),
+				},
+			},
+		},
+		LastChild:   (*html.Node)(nil),
+		PrevSibling: (*html.Node)(nil),
+		NextSibling: (*html.Node)(nil),
+		Type:        (html.NodeType)(3),
+		DataAtom:    (atom.Atom)(401411),
+		Data:        (string)("svg"),
+		Namespace:   (string)("svg"),
+		Attr: []html.Attribute{
+			{
+				Namespace: (string)(""),
+				Key:       (string)("xmlns"),
+				Val:       (string)("http://www.w3.org/2000/svg"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("width"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("height"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("viewBox"),
+				Val:       (string)("0 0 13 16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("style"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
+			},
+		},
+	}
+}
+
+// KebabVertical returns an "kebab-vertical" Octicon SVG node.
+func KebabVertical() *html.Node {
+	return &html.Node{
+		Parent: (*html.Node)(nil),
+		FirstChild: &html.Node{
+			Parent:      (*html.Node)(nil),
+			FirstChild:  (*html.Node)(nil),
+			LastChild:   (*html.Node)(nil),
+			PrevSibling: (*html.Node)(nil),
+			NextSibling: (*html.Node)(nil),
+			Type:        (html.NodeType)(3),
+			DataAtom:    (atom.Atom)(0),
+			Data:        (string)("path"),
+			Namespace:   (string)("svg"),
+			Attr: []html.Attribute{
+				{
+					Namespace: (string)(""),
+					Key:       (string)("d"),
+					Val:       (string)("M0 2.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm0 5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm0 5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0z"),
+				},
+			},
+		},
+		LastChild:   (*html.Node)(nil),
+		PrevSibling: (*html.Node)(nil),
+		NextSibling: (*html.Node)(nil),
+		Type:        (html.NodeType)(3),
+		DataAtom:    (atom.Atom)(401411),
+		Data:        (string)("svg"),
+		Namespace:   (string)("svg"),
+		Attr: []html.Attribute{
+			{
+				Namespace: (string)(""),
+				Key:       (string)("xmlns"),
+				Val:       (string)("http://www.w3.org/2000/svg"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("width"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("height"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("viewBox"),
+				Val:       (string)("0 0 3 16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("style"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
+			},
+		},
+	}
+}
+
 // Key returns an "key" Octicon SVG node.
 func Key() *html.Node {
 	return &html.Node{
@@ -7025,6 +7094,65 @@ func NoNewline() *html.Node {
 	}
 }
 
+// Note returns an "note" Octicon SVG node.
+func Note() *html.Node {
+	return &html.Node{
+		Parent: (*html.Node)(nil),
+		FirstChild: &html.Node{
+			Parent:      (*html.Node)(nil),
+			FirstChild:  (*html.Node)(nil),
+			LastChild:   (*html.Node)(nil),
+			PrevSibling: (*html.Node)(nil),
+			NextSibling: (*html.Node)(nil),
+			Type:        (html.NodeType)(3),
+			DataAtom:    (atom.Atom)(0),
+			Data:        (string)("path"),
+			Namespace:   (string)("svg"),
+			Attr: []html.Attribute{
+				{
+					Namespace: (string)(""),
+					Key:       (string)("d"),
+					Val:       (string)("M3 10h4V9H3v1zm0-2h6V7H3v1zm0-2h8V5H3v1zm10 6H1V3h12v9zM1 2c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1H1z"),
+				},
+			},
+		},
+		LastChild:   (*html.Node)(nil),
+		PrevSibling: (*html.Node)(nil),
+		NextSibling: (*html.Node)(nil),
+		Type:        (html.NodeType)(3),
+		DataAtom:    (atom.Atom)(401411),
+		Data:        (string)("svg"),
+		Namespace:   (string)("svg"),
+		Attr: []html.Attribute{
+			{
+				Namespace: (string)(""),
+				Key:       (string)("xmlns"),
+				Val:       (string)("http://www.w3.org/2000/svg"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("width"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("height"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("viewBox"),
+				Val:       (string)("0 0 14 16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("style"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
+			},
+		},
+	}
+}
+
 // Octoface returns an "octoface" Octicon SVG node.
 func Octoface() *html.Node {
 	return &html.Node{
@@ -7723,6 +7851,65 @@ func PrimitiveSquare() *html.Node {
 				Namespace: (string)(""),
 				Key:       (string)("viewBox"),
 				Val:       (string)("0 0 8 16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("style"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
+			},
+		},
+	}
+}
+
+// Project returns an "project" Octicon SVG node.
+func Project() *html.Node {
+	return &html.Node{
+		Parent: (*html.Node)(nil),
+		FirstChild: &html.Node{
+			Parent:      (*html.Node)(nil),
+			FirstChild:  (*html.Node)(nil),
+			LastChild:   (*html.Node)(nil),
+			PrevSibling: (*html.Node)(nil),
+			NextSibling: (*html.Node)(nil),
+			Type:        (html.NodeType)(3),
+			DataAtom:    (atom.Atom)(0),
+			Data:        (string)("path"),
+			Namespace:   (string)("svg"),
+			Attr: []html.Attribute{
+				{
+					Namespace: (string)(""),
+					Key:       (string)("d"),
+					Val:       (string)("M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"),
+				},
+			},
+		},
+		LastChild:   (*html.Node)(nil),
+		PrevSibling: (*html.Node)(nil),
+		NextSibling: (*html.Node)(nil),
+		Type:        (html.NodeType)(3),
+		DataAtom:    (atom.Atom)(401411),
+		Data:        (string)("svg"),
+		Namespace:   (string)("svg"),
+		Attr: []html.Attribute{
+			{
+				Namespace: (string)(""),
+				Key:       (string)("xmlns"),
+				Val:       (string)("http://www.w3.org/2000/svg"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("width"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("height"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("viewBox"),
+				Val:       (string)("0 0 15 16"),
 			},
 			{
 				Namespace: (string)(""),
@@ -8549,6 +8736,124 @@ func Ruby() *html.Node {
 				Namespace: (string)(""),
 				Key:       (string)("viewBox"),
 				Val:       (string)("0 0 16 16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("style"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
+			},
+		},
+	}
+}
+
+// ScreenFull returns an "screen-full" Octicon SVG node.
+func ScreenFull() *html.Node {
+	return &html.Node{
+		Parent: (*html.Node)(nil),
+		FirstChild: &html.Node{
+			Parent:      (*html.Node)(nil),
+			FirstChild:  (*html.Node)(nil),
+			LastChild:   (*html.Node)(nil),
+			PrevSibling: (*html.Node)(nil),
+			NextSibling: (*html.Node)(nil),
+			Type:        (html.NodeType)(3),
+			DataAtom:    (atom.Atom)(0),
+			Data:        (string)("path"),
+			Namespace:   (string)("svg"),
+			Attr: []html.Attribute{
+				{
+					Namespace: (string)(""),
+					Key:       (string)("d"),
+					Val:       (string)("M13 10h1v3c0 .547-.453 1-1 1h-3v-1h3v-3zM1 10H0v3c0 .547.453 1 1 1h3v-1H1v-3zm0-7h3V2H1c-.547 0-1 .453-1 1v3h1V3zm1 1h10v8H2V4zm2 6h6V6H4v4zm6-8v1h3v3h1V3c0-.547-.453-1-1-1h-3z"),
+				},
+			},
+		},
+		LastChild:   (*html.Node)(nil),
+		PrevSibling: (*html.Node)(nil),
+		NextSibling: (*html.Node)(nil),
+		Type:        (html.NodeType)(3),
+		DataAtom:    (atom.Atom)(401411),
+		Data:        (string)("svg"),
+		Namespace:   (string)("svg"),
+		Attr: []html.Attribute{
+			{
+				Namespace: (string)(""),
+				Key:       (string)("xmlns"),
+				Val:       (string)("http://www.w3.org/2000/svg"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("width"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("height"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("viewBox"),
+				Val:       (string)("0 0 14 16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("style"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
+			},
+		},
+	}
+}
+
+// ScreenNormal returns an "screen-normal" Octicon SVG node.
+func ScreenNormal() *html.Node {
+	return &html.Node{
+		Parent: (*html.Node)(nil),
+		FirstChild: &html.Node{
+			Parent:      (*html.Node)(nil),
+			FirstChild:  (*html.Node)(nil),
+			LastChild:   (*html.Node)(nil),
+			PrevSibling: (*html.Node)(nil),
+			NextSibling: (*html.Node)(nil),
+			Type:        (html.NodeType)(3),
+			DataAtom:    (atom.Atom)(0),
+			Data:        (string)("path"),
+			Namespace:   (string)("svg"),
+			Attr: []html.Attribute{
+				{
+					Namespace: (string)(""),
+					Key:       (string)("d"),
+					Val:       (string)("M2 4H0V3h2V1h1v2c0 .547-.453 1-1 1zm0 8H0v1h2v2h1v-2c0-.547-.453-1-1-1zm9-2c0 .547-.453 1-1 1H4c-.547 0-1-.453-1-1V6c0-.547.453-1 1-1h6c.547 0 1 .453 1 1v4zM9 7H5v2h4V7zm2 6v2h1v-2h2v-1h-2c-.547 0-1 .453-1 1zm1-10V1h-1v2c0 .547.453 1 1 1h2V3h-2z"),
+				},
+			},
+		},
+		LastChild:   (*html.Node)(nil),
+		PrevSibling: (*html.Node)(nil),
+		NextSibling: (*html.Node)(nil),
+		Type:        (html.NodeType)(3),
+		DataAtom:    (atom.Atom)(401411),
+		Data:        (string)("svg"),
+		Namespace:   (string)("svg"),
+		Attr: []html.Attribute{
+			{
+				Namespace: (string)(""),
+				Key:       (string)("xmlns"),
+				Val:       (string)("http://www.w3.org/2000/svg"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("width"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("height"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("viewBox"),
+				Val:       (string)("0 0 14 16"),
 			},
 			{
 				Namespace: (string)(""),
