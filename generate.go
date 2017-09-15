@@ -15,6 +15,7 @@ import (
 	"sort"
 	"strings"
 
+	"dmitri.shuralyov.com/kebabcase"
 	"github.com/shurcooL/go-goon"
 	"golang.org/x/net/html"
 	"golang.org/x/net/html/atom"
@@ -64,7 +65,7 @@ func Icon(name string) *html.Node {
 	switch name {
 `)
 	for _, name := range names {
-		fmt.Fprintf(&buf, "	case %q:\n		return %v()\n", name, dashSepToMixedCaps(name))
+		fmt.Fprintf(&buf, "	case %q:\n		return %v()\n", name, kebabcase.Parse(name).ToMixedCaps())
 	}
 	fmt.Fprint(&buf, `	default:
 		return nil
@@ -115,8 +116,8 @@ func processOcticon(w io.Writer, octicons map[string]octicon, name string) {
 	svg.FirstChild.Parent = nil
 
 	fmt.Fprintln(w)
-	fmt.Fprintf(w, "// %s returns an %q Octicon SVG node.\n", dashSepToMixedCaps(name), name)
-	fmt.Fprintf(w, "func %s() *html.Node {\n", dashSepToMixedCaps(name))
+	fmt.Fprintf(w, "// %s returns an %q Octicon SVG node.\n", kebabcase.Parse(name).ToMixedCaps(), name)
+	fmt.Fprintf(w, "func %s() *html.Node {\n", kebabcase.Parse(name).ToMixedCaps())
 	fmt.Fprint(w, "	return ")
 	goon.Fdump(w, svg)
 	fmt.Fprintln(w, "}")
@@ -147,61 +148,4 @@ func parseOcticon(svgXML string) *html.Node {
 	}
 	svg.Attr = append(svg.Attr, html.Attribute{Key: atom.Style.String(), Val: `fill: currentColor; vertical-align: top;`})
 	return svg
-}
-
-// dashSepToMixedCaps converts "string-URL-append" to "StringURLAppend" form.
-func dashSepToMixedCaps(in string) string {
-	var out string
-	ss := strings.Split(in, "-")
-	for _, s := range ss {
-		initialism := strings.ToUpper(s)
-		if _, ok := initialisms[initialism]; ok {
-			out += initialism
-		} else {
-			out += strings.Title(s)
-		}
-	}
-	return out
-}
-
-// initialisms is the set of initialisms in Go-style Mixed Caps case.
-var initialisms = map[string]struct{}{
-	"API":   {},
-	"ASCII": {},
-	"CPU":   {},
-	"CSS":   {},
-	"DNS":   {},
-	"EOF":   {},
-	"GUID":  {},
-	"HTML":  {},
-	"HTTP":  {},
-	"HTTPS": {},
-	"ID":    {},
-	"IP":    {},
-	"JSON":  {},
-	"LHS":   {},
-	"QPS":   {},
-	"RAM":   {},
-	"RHS":   {},
-	"RPC":   {},
-	"SLA":   {},
-	"SMTP":  {},
-	"SQL":   {},
-	"SSH":   {},
-	"TCP":   {},
-	"TLS":   {},
-	"TTL":   {},
-	"UDP":   {},
-	"UI":    {},
-	"UID":   {},
-	"UUID":  {},
-	"URI":   {},
-	"URL":   {},
-	"UTF8":  {},
-	"VM":    {},
-	"XML":   {},
-	"XSRF":  {},
-	"XSS":   {},
-
-	"RSS": {},
 }
