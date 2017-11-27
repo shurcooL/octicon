@@ -212,7 +212,7 @@ func Icon(name string) *html.Node {
 	case "logo-gist":
 		return LogoGist()
 	case "logo-github":
-		return LogoGithub()
+		return LogoGitHub()
 	case "mail":
 		return Mail()
 	case "mail-read":
@@ -220,7 +220,7 @@ func Icon(name string) *html.Node {
 	case "mail-reply":
 		return MailReply()
 	case "mark-github":
-		return MarkGithub()
+		return MarkGitHub()
 	case "markdown":
 		return Markdown()
 	case "megaphone":
@@ -394,7 +394,7 @@ func Alert() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -453,7 +453,7 @@ func ArrowDown() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -512,7 +512,7 @@ func ArrowLeft() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -571,7 +571,7 @@ func ArrowRight() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -630,7 +630,7 @@ func ArrowSmallDown() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -689,7 +689,7 @@ func ArrowSmallLeft() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -748,7 +748,7 @@ func ArrowSmallRight() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -807,7 +807,7 @@ func ArrowSmallUp() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -866,7 +866,7 @@ func ArrowUp() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -925,7 +925,7 @@ func Beaker() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -984,7 +984,7 @@ func Bell() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -1043,7 +1043,7 @@ func Bold() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -1102,7 +1102,7 @@ func Book() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -1161,7 +1161,7 @@ func Bookmark() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -1220,7 +1220,7 @@ func Briefcase() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -1279,7 +1279,7 @@ func Broadcast() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -1338,7 +1338,7 @@ func Browser() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -1397,7 +1397,7 @@ func Bug() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -1456,7 +1456,7 @@ func Calendar() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -1515,7 +1515,7 @@ func Check() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -1574,7 +1574,7 @@ func Checklist() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -1633,7 +1633,7 @@ func ChevronDown() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -1692,7 +1692,7 @@ func ChevronLeft() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -1751,7 +1751,7 @@ func ChevronRight() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -1810,7 +1810,7 @@ func ChevronUp() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -1869,7 +1869,7 @@ func CircleSlash() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -1928,7 +1928,7 @@ func CircuitBoard() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -1987,7 +1987,7 @@ func Clippy() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -2046,7 +2046,7 @@ func Clock() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -2105,7 +2105,7 @@ func CloudDownload() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -2164,7 +2164,7 @@ func CloudUpload() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -2223,7 +2223,7 @@ func Code() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -2282,7 +2282,7 @@ func Comment() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -2341,7 +2341,7 @@ func CommentDiscussion() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -2400,7 +2400,7 @@ func CreditCard() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -2459,7 +2459,7 @@ func Dash() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -2518,7 +2518,7 @@ func Dashboard() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -2577,7 +2577,7 @@ func Database() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -2636,7 +2636,7 @@ func DesktopDownload() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -2695,7 +2695,7 @@ func DeviceCamera() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -2754,7 +2754,7 @@ func DeviceCameraVideo() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -2813,7 +2813,7 @@ func DeviceDesktop() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -2872,7 +2872,7 @@ func DeviceMobile() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -2931,7 +2931,7 @@ func Diff() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -2990,7 +2990,7 @@ func DiffAdded() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -3049,7 +3049,7 @@ func DiffIgnored() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -3108,7 +3108,7 @@ func DiffModified() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -3167,7 +3167,7 @@ func DiffRemoved() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -3226,7 +3226,7 @@ func DiffRenamed() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -3285,7 +3285,7 @@ func Ellipsis() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -3344,7 +3344,7 @@ func Eye() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -3403,7 +3403,7 @@ func File() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -3462,7 +3462,7 @@ func FileBinary() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -3521,7 +3521,7 @@ func FileCode() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -3580,7 +3580,7 @@ func FileDirectory() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -3639,7 +3639,7 @@ func FileMedia() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -3698,7 +3698,7 @@ func FilePdf() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -3757,7 +3757,7 @@ func FileSubmodule() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -3816,7 +3816,7 @@ func FileSymlinkDirectory() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -3875,7 +3875,7 @@ func FileSymlinkFile() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -3934,7 +3934,7 @@ func FileText() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -3993,7 +3993,7 @@ func FileZip() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -4052,7 +4052,7 @@ func Flame() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -4111,7 +4111,7 @@ func Fold() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -4170,7 +4170,7 @@ func Gear() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -4229,7 +4229,7 @@ func Gift() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -4288,7 +4288,7 @@ func Gist() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -4347,7 +4347,7 @@ func GistSecret() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -4406,7 +4406,7 @@ func GitBranch() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -4465,7 +4465,7 @@ func GitCommit() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -4524,7 +4524,7 @@ func GitCompare() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -4583,7 +4583,7 @@ func GitMerge() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -4642,7 +4642,7 @@ func GitPullRequest() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -4701,7 +4701,7 @@ func Globe() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -4760,7 +4760,7 @@ func Grabber() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -4819,7 +4819,7 @@ func Graph() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -4878,7 +4878,7 @@ func Heart() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -4937,7 +4937,7 @@ func History() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -4996,7 +4996,7 @@ func Home() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -5055,7 +5055,7 @@ func HorizontalRule() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -5114,7 +5114,7 @@ func Hubot() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -5173,7 +5173,7 @@ func Inbox() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -5232,7 +5232,7 @@ func Info() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -5291,7 +5291,7 @@ func IssueClosed() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -5350,7 +5350,7 @@ func IssueOpened() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -5409,7 +5409,7 @@ func IssueReopened() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -5468,7 +5468,7 @@ func Italic() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -5527,7 +5527,7 @@ func Jersey() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -5586,7 +5586,7 @@ func KebabHorizontal() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -5645,7 +5645,7 @@ func KebabVertical() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -5704,7 +5704,7 @@ func Key() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -5763,7 +5763,7 @@ func Keyboard() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -5822,7 +5822,7 @@ func Law() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -5881,7 +5881,7 @@ func LightBulb() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -5940,7 +5940,7 @@ func Link() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -5999,7 +5999,7 @@ func LinkExternal() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -6058,7 +6058,7 @@ func ListOrdered() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -6117,7 +6117,7 @@ func ListUnordered() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -6176,7 +6176,7 @@ func Location() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -6235,7 +6235,7 @@ func Lock() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -6294,7 +6294,7 @@ func LogoGist() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -6327,8 +6327,8 @@ func LogoGist() *html.Node {
 	}
 }
 
-// LogoGithub returns an "logo-github" Octicon SVG node.
-func LogoGithub() *html.Node {
+// LogoGitHub returns an "logo-github" Octicon SVG node.
+func LogoGitHub() *html.Node {
 	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
@@ -6353,7 +6353,7 @@ func LogoGithub() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -6412,7 +6412,7 @@ func Mail() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -6471,7 +6471,7 @@ func MailRead() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -6530,7 +6530,7 @@ func MailReply() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -6563,8 +6563,8 @@ func MailReply() *html.Node {
 	}
 }
 
-// MarkGithub returns an "mark-github" Octicon SVG node.
-func MarkGithub() *html.Node {
+// MarkGitHub returns an "mark-github" Octicon SVG node.
+func MarkGitHub() *html.Node {
 	return &html.Node{
 		Parent: (*html.Node)(nil),
 		FirstChild: &html.Node{
@@ -6589,7 +6589,7 @@ func MarkGithub() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -6648,7 +6648,7 @@ func Markdown() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -6707,7 +6707,7 @@ func Megaphone() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -6766,7 +6766,7 @@ func Mention() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -6825,7 +6825,7 @@ func Milestone() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -6884,7 +6884,7 @@ func Mirror() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -6943,7 +6943,7 @@ func MortarBoard() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -7002,7 +7002,7 @@ func Mute() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -7061,7 +7061,7 @@ func NoNewline() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -7120,7 +7120,7 @@ func Note() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -7179,7 +7179,7 @@ func Octoface() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -7238,7 +7238,7 @@ func Organization() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -7297,7 +7297,7 @@ func Package() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -7356,7 +7356,7 @@ func Paintcan() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -7415,7 +7415,7 @@ func Pencil() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -7474,7 +7474,7 @@ func Person() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -7533,7 +7533,7 @@ func Pin() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -7592,7 +7592,7 @@ func Plug() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -7651,7 +7651,7 @@ func Plus() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -7710,7 +7710,7 @@ func PlusSmall() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -7769,7 +7769,7 @@ func PrimitiveDot() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -7828,7 +7828,7 @@ func PrimitiveSquare() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -7887,7 +7887,7 @@ func Project() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -7946,7 +7946,7 @@ func Pulse() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -8005,7 +8005,7 @@ func Question() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -8064,7 +8064,7 @@ func Quote() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -8123,7 +8123,7 @@ func RadioTower() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -8182,7 +8182,7 @@ func Reply() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -8241,7 +8241,7 @@ func Repo() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -8300,7 +8300,7 @@ func RepoClone() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -8359,7 +8359,7 @@ func RepoForcePush() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -8418,7 +8418,7 @@ func RepoForked() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -8477,7 +8477,7 @@ func RepoPull() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -8536,7 +8536,7 @@ func RepoPush() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -8595,7 +8595,7 @@ func Rocket() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -8654,7 +8654,7 @@ func RSS() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -8713,7 +8713,7 @@ func Ruby() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -8772,7 +8772,7 @@ func ScreenFull() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -8831,7 +8831,7 @@ func ScreenNormal() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -8890,7 +8890,7 @@ func Search() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -8949,7 +8949,7 @@ func Server() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -9008,7 +9008,7 @@ func Settings() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -9067,7 +9067,7 @@ func Shield() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -9126,7 +9126,7 @@ func SignIn() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -9185,7 +9185,7 @@ func SignOut() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -9244,7 +9244,7 @@ func Smiley() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -9303,7 +9303,7 @@ func Squirrel() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -9362,7 +9362,7 @@ func Star() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -9421,7 +9421,7 @@ func Stop() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -9480,7 +9480,7 @@ func Sync() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -9539,7 +9539,7 @@ func Tag() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -9598,7 +9598,7 @@ func Tasklist() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -9657,7 +9657,7 @@ func Telescope() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -9716,7 +9716,7 @@ func Terminal() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -9775,7 +9775,7 @@ func TextSize() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -9834,7 +9834,7 @@ func ThreeBars() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -9893,7 +9893,7 @@ func Thumbsdown() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -9952,7 +9952,7 @@ func Thumbsup() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -10011,7 +10011,7 @@ func Tools() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -10070,7 +10070,7 @@ func Trashcan() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -10129,7 +10129,7 @@ func TriangleDown() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -10188,7 +10188,7 @@ func TriangleLeft() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -10247,7 +10247,7 @@ func TriangleRight() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -10306,7 +10306,7 @@ func TriangleUp() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -10365,7 +10365,7 @@ func Unfold() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -10424,7 +10424,7 @@ func Unmute() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -10483,7 +10483,7 @@ func Unverified() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -10542,7 +10542,7 @@ func Verified() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -10601,7 +10601,7 @@ func Versions() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -10660,7 +10660,7 @@ func Watch() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -10719,7 +10719,7 @@ func X() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
@@ -10778,7 +10778,7 @@ func Zap() *html.Node {
 		PrevSibling: (*html.Node)(nil),
 		NextSibling: (*html.Node)(nil),
 		Type:        (html.NodeType)(3),
-		DataAtom:    (atom.Atom)(401411),
+		DataAtom:    (atom.Atom)(460803),
 		Data:        (string)("svg"),
 		Namespace:   (string)("svg"),
 		Attr: []html.Attribute{
