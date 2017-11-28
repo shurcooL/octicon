@@ -1,6 +1,8 @@
 package octiconssvg
 
 import (
+	"strconv"
+
 	"golang.org/x/net/html"
 	"golang.org/x/net/html/atom"
 )
@@ -366,6 +368,13 @@ func Icon(name string) *html.Node {
 	default:
 		return nil
 	}
+}
+
+// SetSize sets size of icon, and returns a reference to it.
+func SetSize(icon *html.Node, size int) *html.Node {
+	icon.Attr[1].Val = strconv.Itoa(size)
+	icon.Attr[2].Val = strconv.Itoa(size)
+	return icon
 }
 
 // Alert returns an "alert" Octicon SVG node.
