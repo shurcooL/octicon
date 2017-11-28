@@ -7,7 +7,6 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	"go/format"
 	"io"
 	"log"
 	"os"
@@ -76,11 +75,6 @@ func Icon(name string) *html.Node {
 		processOcticon(&buf, octicons, name)
 	}
 
-	b, err := format.Source(buf.Bytes())
-	if err != nil {
-		return fmt.Errorf("error from format.Source(): %v", err)
-	}
-
 	var w io.Writer
 	switch *oFlag {
 	case "":
@@ -94,7 +88,7 @@ func Icon(name string) *html.Node {
 		w = f
 	}
 
-	_, err = w.Write(b)
+	_, err = w.Write(buf.Bytes())
 	return err
 }
 
