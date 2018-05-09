@@ -105,8 +105,8 @@ func SetSize(icon *html.Node, size int) *html.Node {
 
 type octicon struct {
 	Path   string
-	Width  int `json:",string"`
-	Height int `json:",string"`
+	Width  int
+	Height int
 }
 
 func generateAndWriteOcticon(w io.Writer, octicons map[string]octicon, name string) {
@@ -128,6 +128,13 @@ func generateAndWriteOcticon(w io.Writer, octicons map[string]octicon, name stri
 	fmt.Fprintln(w, "}")
 }
 
+// These constants are used during generation of SetSize function.
+// Keep them in sync with generateOcticon below.
+const (
+	widthAttrIndex  = 1
+	heightAttrIndex = 2
+)
+
 func generateOcticon(o octicon) (svgXML string) {
 	path := o.Path
 	if strings.HasPrefix(path, `<path fill-rule="evenodd" `) {
@@ -139,13 +146,6 @@ func generateOcticon(o octicon) (svgXML string) {
 	return fmt.Sprintf(`<svg xmlns="http://www.w3.org/2000/svg" width="%d" height="%d" viewBox="0 0 %d %d">%s</svg>`,
 		o.Width, o.Height, o.Width, o.Height, path)
 }
-
-// These constants are used during generation of SetSize function.
-// Keep them in sync with generateOcticon.
-const (
-	widthAttrIndex  = 1
-	heightAttrIndex = 2
-)
 
 func parseOcticon(svgXML string) *html.Node {
 	e, err := html.ParseFragment(strings.NewReader(svgXML), nil)
