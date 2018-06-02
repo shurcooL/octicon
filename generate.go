@@ -51,7 +51,7 @@ func run() error {
 	sort.Strings(names)
 
 	var buf bytes.Buffer
-	fmt.Fprint(&buf, `package octiconssvg
+	fmt.Fprint(&buf, `package octicon
 
 import (
 	"strconv"

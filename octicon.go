@@ -1,4 +1,4 @@
-package octiconssvg
+package octicon
 
 import (
 	"strconv"

@@ -1,18 +1,18 @@
-package octiconssvg_test
+package octicon_test
 
 import (
 	"io"
 	"log"
 	"os"
 
-	"github.com/shurcooL/octiconssvg"
+	"github.com/shurcooL/octicon"
 	"golang.org/x/net/html"
 )
 
 func Example() {
 	var w io.Writer = os.Stdout // Or, e.g., http.ResponseWriter in your HTTP handler, etc.
 
-	err := html.Render(w, octiconssvg.Alert())
+	err := html.Render(w, octicon.Alert())
 	if err != nil {
 		log.Fatalln(err)
 	}
@@ -24,7 +24,7 @@ func Example() {
 func ExampleSetSize() {
 	var w io.Writer = os.Stdout // Or, e.g., http.ResponseWriter in your HTTP handler, etc.
 
-	err := html.Render(w, octiconssvg.SetSize(octiconssvg.MarkGitHub(), 24))
+	err := html.Render(w, octicon.SetSize(octicon.MarkGitHub(), 24))
 	if err != nil {
 		log.Fatalln(err)
 	}
