@@ -91,6 +91,8 @@ func Icon(name string) *html.Node {
 		return Dashboard()
 	case "database":
 		return Database()
+	case "dependent":
+		return Dependent()
 	case "desktop-download":
 		return DesktopDownload()
 	case "device-camera":
@@ -117,6 +119,8 @@ func Icon(name string) *html.Node {
 		return Ellipsis()
 	case "eye":
 		return Eye()
+	case "eye-closed":
+		return EyeClosed()
 	case "file":
 		return File()
 	case "file-binary":
@@ -141,6 +145,10 @@ func Icon(name string) *html.Node {
 		return Flame()
 	case "fold":
 		return Fold()
+	case "fold-down":
+		return FoldDown()
+	case "fold-up":
+		return FoldUp()
 	case "gear":
 		return Gear()
 	case "gift":
@@ -159,6 +167,8 @@ func Icon(name string) *html.Node {
 		return GitMerge()
 	case "git-pull-request":
 		return GitPullRequest()
+	case "github-action":
+		return GitHubAction()
 	case "globe":
 		return Globe()
 	case "grabber":
@@ -255,6 +265,8 @@ func Icon(name string) *html.Node {
 		return Person()
 	case "pin":
 		return Pin()
+	case "play":
+		return Play()
 	case "plug":
 		return Plug()
 	case "plus":
@@ -289,8 +301,14 @@ func Icon(name string) *html.Node {
 		return RepoPull()
 	case "repo-push":
 		return RepoPush()
+	case "repo-template":
+		return RepoTemplate()
+	case "repo-template-private":
+		return RepoTemplatePrivate()
 	case "report":
 		return Report()
+	case "request-changes":
+		return RequestChanges()
 	case "rocket":
 		return Rocket()
 	case "rss":
@@ -309,10 +327,18 @@ func Icon(name string) *html.Node {
 		return Settings()
 	case "shield":
 		return Shield()
+	case "shield-check":
+		return ShieldCheck()
+	case "shield-lock":
+		return ShieldLock()
+	case "shield-x":
+		return ShieldX()
 	case "sign-in":
 		return SignIn()
 	case "sign-out":
 		return SignOut()
+	case "skip":
+		return Skip()
 	case "smiley":
 		return Smiley()
 	case "squirrel":
@@ -1105,7 +1131,7 @@ func Bell() *html.Node {
 				{
 					Namespace: (string)(""),
 					Key:       (string)("d"),
-					Val:       (string)("M13.99 11.991v1H0v-1l.73-.58c.769-.769.809-2.547 1.189-4.416.77-3.767 4.077-4.996 4.077-4.996 0-.55.45-1 .999-1 .55 0 1 .45 1 1 0 0 3.387 1.229 4.156 4.996.38 1.879.42 3.657 1.19 4.417l.659.58h-.01zM6.995 15.99c1.11 0 1.999-.89 1.999-1.999H4.996c0 1.11.89 1.999 1.999 1.999z"),
+					Val:       (string)("M14 12v1H0v-1l.73-.58c.77-.77.81-2.55 1.19-4.42C2.69 3.23 6 2 6 2c0-.55.45-1 1-1s1 .45 1 1c0 0 3.39 1.23 4.16 5 .38 1.88.42 3.66 1.19 4.42l.66.58H14zm-7 4c1.11 0 2-.89 2-2H5c0 1.11.89 2 2 2z"),
 				},
 			},
 		},
@@ -2739,6 +2765,65 @@ func Database() *html.Node {
 	}
 }
 
+// Dependent returns an "dependent" Octicon SVG node.
+func Dependent() *html.Node {
+	return &html.Node{
+		Parent: (*html.Node)(nil),
+		FirstChild: &html.Node{
+			Parent:      (*html.Node)(nil),
+			FirstChild:  (*html.Node)(nil),
+			LastChild:   (*html.Node)(nil),
+			PrevSibling: (*html.Node)(nil),
+			NextSibling: (*html.Node)(nil),
+			Type:        (html.NodeType)(3),
+			DataAtom:    (atom.Atom)(0),
+			Data:        (string)("path"),
+			Namespace:   (string)("svg"),
+			Attr: []html.Attribute{
+				{
+					Namespace: (string)(""),
+					Key:       (string)("d"),
+					Val:       (string)("M1 1h7.5l2 2H9L8 2H1v12h10v-1h1v1c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1zm9 6h3v1h-3V7zm2 2h-2v1h2V9zM8.583 4h4.375L15 6v5.429a.58.58 0 0 1-.583.571H8.583A.58.58 0 0 1 8 11.429V10h1v1h5V6.5L12.5 5H9v1H8V4.571A.58.58 0 0 1 8.583 4zM9.5 7H6.667V5l-4 3 4 3V9H9.5V7z"),
+				},
+			},
+		},
+		LastChild:   (*html.Node)(nil),
+		PrevSibling: (*html.Node)(nil),
+		NextSibling: (*html.Node)(nil),
+		Type:        (html.NodeType)(3),
+		DataAtom:    (atom.Atom)(462339),
+		Data:        (string)("svg"),
+		Namespace:   (string)("svg"),
+		Attr: []html.Attribute{
+			{
+				Namespace: (string)(""),
+				Key:       (string)("xmlns"),
+				Val:       (string)("http://www.w3.org/2000/svg"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("width"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("height"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("viewBox"),
+				Val:       (string)("0 0 16 16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("style"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
+			},
+		},
+	}
+}
+
 // DesktopDownload returns an "desktop-download" Octicon SVG node.
 func DesktopDownload() *html.Node {
 	return &html.Node{
@@ -3506,6 +3591,65 @@ func Eye() *html.Node {
 	}
 }
 
+// EyeClosed returns an "eye-closed" Octicon SVG node.
+func EyeClosed() *html.Node {
+	return &html.Node{
+		Parent: (*html.Node)(nil),
+		FirstChild: &html.Node{
+			Parent:      (*html.Node)(nil),
+			FirstChild:  (*html.Node)(nil),
+			LastChild:   (*html.Node)(nil),
+			PrevSibling: (*html.Node)(nil),
+			NextSibling: (*html.Node)(nil),
+			Type:        (html.NodeType)(3),
+			DataAtom:    (atom.Atom)(0),
+			Data:        (string)("path"),
+			Namespace:   (string)("svg"),
+			Attr: []html.Attribute{
+				{
+					Namespace: (string)(""),
+					Key:       (string)("d"),
+					Val:       (string)("M14.822.854a.5.5 0 1 0-.707-.708l-2.11 2.11C10.89 1.483 9.565.926 8.06.926c-5.06 0-8.06 6-8.06 6s1.162 2.323 3.258 4.078l-2.064 2.065a.5.5 0 1 0 .707.707L14.822.854zM4.86 9.403L6.292 7.97A1.999 1.999 0 0 1 6 6.925c0-1.11.89-2 2-2 .384 0 .741.106 1.045.292l1.433-1.433A3.98 3.98 0 0 0 8 2.925c-2.2 0-4 1.8-4 4 0 .938.321 1.798.859 2.478zm7.005-3.514l1.993-1.992A14.873 14.873 0 0 1 16 6.925s-3 6-7.94 6a6.609 6.609 0 0 1-2.661-.57l1.565-1.566c.33.089.678.136 1.036.136 2.22 0 4-1.78 4-4 0-.358-.047-.705-.136-1.036zM9.338 8.415l.152-.151a1.996 1.996 0 0 1-.152.151z"),
+				},
+			},
+		},
+		LastChild:   (*html.Node)(nil),
+		PrevSibling: (*html.Node)(nil),
+		NextSibling: (*html.Node)(nil),
+		Type:        (html.NodeType)(3),
+		DataAtom:    (atom.Atom)(462339),
+		Data:        (string)("svg"),
+		Namespace:   (string)("svg"),
+		Attr: []html.Attribute{
+			{
+				Namespace: (string)(""),
+				Key:       (string)("xmlns"),
+				Val:       (string)("http://www.w3.org/2000/svg"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("width"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("height"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("viewBox"),
+				Val:       (string)("0 0 16 13.921463966369629"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("style"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
+			},
+		},
+	}
+}
+
 // File returns an "file" Octicon SVG node.
 func File() *html.Node {
 	return &html.Node{
@@ -4214,6 +4358,124 @@ func Fold() *html.Node {
 	}
 }
 
+// FoldDown returns an "fold-down" Octicon SVG node.
+func FoldDown() *html.Node {
+	return &html.Node{
+		Parent: (*html.Node)(nil),
+		FirstChild: &html.Node{
+			Parent:      (*html.Node)(nil),
+			FirstChild:  (*html.Node)(nil),
+			LastChild:   (*html.Node)(nil),
+			PrevSibling: (*html.Node)(nil),
+			NextSibling: (*html.Node)(nil),
+			Type:        (html.NodeType)(3),
+			DataAtom:    (atom.Atom)(0),
+			Data:        (string)("path"),
+			Namespace:   (string)("svg"),
+			Attr: []html.Attribute{
+				{
+					Namespace: (string)(""),
+					Key:       (string)("d"),
+					Val:       (string)("M4 11l3 3 3-3H8V5H6v6H4zm-4 0c0 .55.45 1 1 1h2.5l-1-1h-1l2-2H5V8H3.5l-2-2H5V5H1c-.55 0-1 .45-1 1l2.5 2.5L0 11zm10.5-2H9V8h1.5l2-2H9V5h4c.55 0 1 .45 1 1l-2.5 2.5L14 11c0 .55-.45 1-1 1h-2.5l1-1h1l-2-2z"),
+				},
+			},
+		},
+		LastChild:   (*html.Node)(nil),
+		PrevSibling: (*html.Node)(nil),
+		NextSibling: (*html.Node)(nil),
+		Type:        (html.NodeType)(3),
+		DataAtom:    (atom.Atom)(462339),
+		Data:        (string)("svg"),
+		Namespace:   (string)("svg"),
+		Attr: []html.Attribute{
+			{
+				Namespace: (string)(""),
+				Key:       (string)("xmlns"),
+				Val:       (string)("http://www.w3.org/2000/svg"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("width"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("height"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("viewBox"),
+				Val:       (string)("0 0 14 16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("style"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
+			},
+		},
+	}
+}
+
+// FoldUp returns an "fold-up" Octicon SVG node.
+func FoldUp() *html.Node {
+	return &html.Node{
+		Parent: (*html.Node)(nil),
+		FirstChild: &html.Node{
+			Parent:      (*html.Node)(nil),
+			FirstChild:  (*html.Node)(nil),
+			LastChild:   (*html.Node)(nil),
+			PrevSibling: (*html.Node)(nil),
+			NextSibling: (*html.Node)(nil),
+			Type:        (html.NodeType)(3),
+			DataAtom:    (atom.Atom)(0),
+			Data:        (string)("path"),
+			Namespace:   (string)("svg"),
+			Attr: []html.Attribute{
+				{
+					Namespace: (string)(""),
+					Key:       (string)("d"),
+					Val:       (string)("M10 6L7 3 4 6h2v6h2V6h2zm4 0c0-.55-.45-1-1-1h-2.5l1 1h1l-2 2H9v1h1.5l2 2H9v1h4c.55 0 1-.45 1-1l-2.5-2.5L14 6zM3.5 8H5v1H3.5l-2 2H5v1H1c-.55 0-1-.45-1-1l2.5-2.5L0 6c0-.55.45-1 1-1h2.5l-1 1h-1l2 2z"),
+				},
+			},
+		},
+		LastChild:   (*html.Node)(nil),
+		PrevSibling: (*html.Node)(nil),
+		NextSibling: (*html.Node)(nil),
+		Type:        (html.NodeType)(3),
+		DataAtom:    (atom.Atom)(462339),
+		Data:        (string)("svg"),
+		Namespace:   (string)("svg"),
+		Attr: []html.Attribute{
+			{
+				Namespace: (string)(""),
+				Key:       (string)("xmlns"),
+				Val:       (string)("http://www.w3.org/2000/svg"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("width"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("height"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("viewBox"),
+				Val:       (string)("0 0 14 16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("style"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
+			},
+		},
+	}
+}
+
 // Gear returns an "gear" Octicon SVG node.
 func Gear() *html.Node {
 	return &html.Node{
@@ -4735,6 +4997,65 @@ func GitPullRequest() *html.Node {
 				Namespace: (string)(""),
 				Key:       (string)("viewBox"),
 				Val:       (string)("0 0 12 16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("style"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
+			},
+		},
+	}
+}
+
+// GitHubAction returns an "github-action" Octicon SVG node.
+func GitHubAction() *html.Node {
+	return &html.Node{
+		Parent: (*html.Node)(nil),
+		FirstChild: &html.Node{
+			Parent:      (*html.Node)(nil),
+			FirstChild:  (*html.Node)(nil),
+			LastChild:   (*html.Node)(nil),
+			PrevSibling: (*html.Node)(nil),
+			NextSibling: (*html.Node)(nil),
+			Type:        (html.NodeType)(3),
+			DataAtom:    (atom.Atom)(0),
+			Data:        (string)("path"),
+			Namespace:   (string)("svg"),
+			Attr: []html.Attribute{
+				{
+					Namespace: (string)(""),
+					Key:       (string)("d"),
+					Val:       (string)("M9 2h6c.55 0 1 .45 1 1v10c0 .55-.45 1-1 1H9a1 1 0 1 1-2 0H1c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h6a1 1 0 1 1 2 0zm6 1v10H1V3h14zm-2.5 4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"),
+				},
+			},
+		},
+		LastChild:   (*html.Node)(nil),
+		PrevSibling: (*html.Node)(nil),
+		NextSibling: (*html.Node)(nil),
+		Type:        (html.NodeType)(3),
+		DataAtom:    (atom.Atom)(462339),
+		Data:        (string)("svg"),
+		Namespace:   (string)("svg"),
+		Attr: []html.Attribute{
+			{
+				Namespace: (string)(""),
+				Key:       (string)("xmlns"),
+				Val:       (string)("http://www.w3.org/2000/svg"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("width"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("height"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("viewBox"),
+				Val:       (string)("0 0 16 16"),
 			},
 			{
 				Namespace: (string)(""),
@@ -6120,7 +6441,7 @@ func ListOrdered() *html.Node {
 				{
 					Namespace: (string)(""),
 					Key:       (string)("d"),
-					Val:       (string)("M12 12.99c0 .589 0 .998-.59.998H4.597c-.59 0-.59-.41-.59-.999 0-.59 0-.999.59-.999H11.4c.59 0 .59.41.59 1H12zM4.596 3.996H11.4c.59 0 .59-.41.59-1 0-.589 0-.999-.59-.999H4.596c-.59 0-.59.41-.59 1 0 .589 0 .999.59.999zM11.4 6.994H4.596c-.59 0-.59.41-.59 1 0 .589 0 .999.59.999H11.4c.59 0 .59-.41.59-1 0-.59 0-.999-.59-.999zM2.008 1h-.72C.99 1.19.71 1.25.26 1.34V2h.75v2.138H.17v.859h2.837v-.86h-.999V1zm.25 8.123c-.17 0-.45.03-.66.06.53-.56 1.14-1.249 1.14-1.888-.02-.78-.56-1.299-1.36-1.299-.589 0-.968.2-1.378.64l.58.579c.19-.19.38-.38.639-.38.28 0 .48.16.48.52 0 .53-.77 1.199-1.699 2.058v.58h2.998l-.09-.88h-.66l.01.01zm-.08 3.777v-.03c.44-.19.64-.47.64-.859 0-.7-.56-1.11-1.44-1.11-.479 0-.888.19-1.278.52l.55.64c.25-.2.44-.31.689-.31.27 0 .42.13.42.36 0 .27-.2.44-.86.44v.749c.83 0 .98.17.98.47 0 .25-.23.38-.58.38-.28 0-.56-.14-.81-.38l-.479.659c.3.36.77.56 1.409.56.83 0 1.529-.41 1.529-1.16 0-.5-.31-.809-.77-.939v.01z"),
+					Val:       (string)("M12.01 13c0 .59 0 1-.59 1H4.6c-.59 0-.59-.41-.59-1 0-.59 0-1 .59-1h6.81c.59 0 .59.41.59 1h.01zM4.6 4h6.81C12 4 12 3.59 12 3c0-.59 0-1-.59-1H4.6c-.59 0-.59.41-.59 1 0 .59 0 1 .59 1zm6.81 3H4.6c-.59 0-.59.41-.59 1 0 .59 0 1 .59 1h6.81C12 9 12 8.59 12 8c0-.59 0-1-.59-1zm-9.4-6h-.72c-.3.19-.58.25-1.03.34V2h.75v2.14H.17V5h2.84v-.86h-1V1zm.392 8.12c-.129 0-.592.04-.802.07.53-.56 1.14-1.25 1.14-1.89C2.72 6.52 2.18 6 1.38 6c-.59 0-.97.2-1.38.64l.58.58c.19-.19.38-.38.64-.38.28 0 .48.16.48.52 0 .53-.77 1.2-1.7 2.06V10h3v-.88h-.598zm-.222 3.79v-.03c.44-.19.64-.47.64-.86 0-.7-.56-1.11-1.44-1.11-.48 0-.89.19-1.28.52l.55.64c.25-.2.44-.31.69-.31.27 0 .42.13.42.36 0 .27-.2.44-.86.44v.75c.83 0 .98.17.98.47 0 .25-.23.38-.58.38-.28 0-.56-.14-.81-.38l-.48.66c.3.36.77.56 1.41.56.83 0 1.53-.41 1.53-1.16 0-.5-.31-.81-.77-.94v.01z"),
 				},
 			},
 		},
@@ -6415,7 +6736,7 @@ func LogoGitHub() *html.Node {
 				{
 					Namespace: (string)(""),
 					Key:       (string)("d"),
-					Val:       (string)("M18.53 12.03h-.02c.009 0 .015.01.024.011h.006l-.01-.01zm.004.011c-.093.001-.327.05-.574.05-.78 0-1.05-.36-1.05-.83V8.13h1.59c.09 0 .16-.08.16-.19v-1.7c0-.09-.08-.17-.16-.17h-1.59V3.96c0-.08-.05-.13-.14-.13h-2.16c-.09 0-.14.05-.14.13v2.17s-1.09.27-1.16.28c-.08.02-.13.09-.13.17v1.36c0 .11.08.19.17.19h1.11v3.28c0 2.44 1.7 2.69 2.86 2.69.53 0 1.17-.17 1.27-.22.06-.02.09-.09.09-.16v-1.5a.177.177 0 0 0-.146-.18zm23.696-2.2c0-1.81-.73-2.05-1.5-1.97-.6.04-1.08.34-1.08.34v3.52s.49.34 1.22.36c1.03.03 1.36-.34 1.36-2.25zm2.43-.16c0 3.43-1.11 4.41-3.05 4.41-1.64 0-2.52-.83-2.52-.83s-.04.46-.09.52c-.03.06-.08.08-.14.08h-1.48c-.1 0-.19-.08-.19-.17l.02-11.11c0-.09.08-.17.17-.17h2.13c.09 0 .17.08.17.17v3.77s.82-.53 2.02-.53l-.01-.02c1.2 0 2.97.45 2.97 3.88zm-8.72-3.61h-2.1c-.11 0-.17.08-.17.19v5.44s-.55.39-1.3.39-.97-.34-.97-1.09V6.25c0-.09-.08-.17-.17-.17h-2.14c-.09 0-.17.08-.17.17v5.11c0 2.2 1.23 2.75 2.92 2.75 1.39 0 2.52-.77 2.52-.77s.05.39.08.45c.02.05.09.09.16.09h1.34c.11 0 .17-.08.17-.17l.02-7.47c0-.09-.08-.17-.19-.17zm-23.7-.01h-2.13c-.09 0-.17.09-.17.2v7.34c0 .2.13.27.3.27h1.92c.2 0 .25-.09.25-.27V6.23c0-.09-.08-.17-.17-.17zm-1.05-3.38c-.77 0-1.38.61-1.38 1.38 0 .77.61 1.38 1.38 1.38.75 0 1.36-.61 1.36-1.38 0-.77-.61-1.38-1.36-1.38zm16.49-.25h-2.11c-.09 0-.17.08-.17.17v4.09h-3.31V2.6c0-.09-.08-.17-.17-.17h-2.13c-.09 0-.17.08-.17.17v11.11c0 .09.09.17.17.17h2.13c.09 0 .17-.08.17-.17V8.96h3.31l-.02 4.75c0 .09.08.17.17.17h2.13c.09 0 .17-.08.17-.17V2.6c0-.09-.08-.17-.17-.17zM8.81 7.35v5.74c0 .04-.01.11-.06.13 0 0-1.25.89-3.31.89-2.49 0-5.44-.78-5.44-5.92S2.58 1.99 5.1 2c2.18 0 3.06.49 3.2.58.04.05.06.09.06.14L7.94 4.5c0 .09-.09.2-.2.17-.36-.11-.9-.33-2.17-.33-1.47 0-3.05.42-3.05 3.73s1.5 3.7 2.58 3.7c.92 0 1.25-.11 1.25-.11v-2.3H4.88c-.11 0-.19-.08-.19-.17V7.35c0-.09.08-.17.19-.17h3.74c.11 0 .19.08.19.17z"),
+					Val:       (string)("M18.53 12.03h-.02c.009 0 .015.01.024.011h.006l-.01-.01zm.004.011c-.093.001-.327.05-.574.05-.78 0-1.05-.36-1.05-.83V8.13h1.59c.09 0 .16-.08.16-.19v-1.7c0-.09-.08-.17-.16-.17h-1.59V3.96c0-.08-.05-.13-.14-.13h-2.16c-.09 0-.14.05-.14.13v2.17s-1.09.27-1.16.28c-.08.02-.13.09-.13.17v1.36c0 .11.08.19.17.19h1.11v3.28c0 2.44 1.7 2.69 2.86 2.69.53 0 1.17-.17 1.27-.22.06-.02.09-.09.09-.16v-1.5a.177.177 0 0 0-.146-.18zM42.23 9.84c0-1.81-.73-2.05-1.5-1.97-.6.04-1.08.34-1.08.34v3.52s.49.34 1.22.36c1.03.03 1.36-.34 1.36-2.25zm2.43-.16c0 3.43-1.11 4.41-3.05 4.41-1.64 0-2.52-.83-2.52-.83s-.04.46-.09.52c-.03.06-.08.08-.14.08h-1.48c-.1 0-.19-.08-.19-.17l.02-11.11c0-.09.08-.17.17-.17h2.13c.09 0 .17.08.17.17v3.77s.82-.53 2.02-.53l-.01-.02c1.2 0 2.97.45 2.97 3.88zm-8.72-3.61h-2.1c-.11 0-.17.08-.17.19v5.44s-.55.39-1.3.39-.97-.34-.97-1.09V6.25c0-.09-.08-.17-.17-.17h-2.14c-.09 0-.17.08-.17.17v5.11c0 2.2 1.23 2.75 2.92 2.75 1.39 0 2.52-.77 2.52-.77s.05.39.08.45c.02.05.09.09.16.09h1.34c.11 0 .17-.08.17-.17l.02-7.47c0-.09-.08-.17-.19-.17zm-23.7-.01h-2.13c-.09 0-.17.09-.17.2v7.34c0 .2.13.27.3.27h1.92c.2 0 .25-.09.25-.27V6.23c0-.09-.08-.17-.17-.17zm-1.05-3.38c-.77 0-1.38.61-1.38 1.38 0 .77.61 1.38 1.38 1.38.75 0 1.36-.61 1.36-1.38 0-.77-.61-1.38-1.36-1.38zm16.49-.25h-2.11c-.09 0-.17.08-.17.17v4.09h-3.31V2.6c0-.09-.08-.17-.17-.17h-2.13c-.09 0-.17.08-.17.17v11.11c0 .09.09.17.17.17h2.13c.09 0 .17-.08.17-.17V8.96h3.31l-.02 4.75c0 .09.08.17.17.17h2.13c.09 0 .17-.08.17-.17V2.6c0-.09-.08-.17-.17-.17zM8.81 7.35v5.74c0 .04-.01.11-.06.13 0 0-1.25.89-3.31.89-2.49 0-5.44-.78-5.44-5.92S2.58 1.99 5.1 2c2.18 0 3.06.49 3.2.58.04.05.06.09.06.14L7.94 4.5c0 .09-.09.2-.2.17-.36-.11-.9-.33-2.17-.33-1.47 0-3.05.42-3.05 3.73s1.5 3.7 2.58 3.7c.92 0 1.25-.11 1.25-.11v-2.3H4.88c-.11 0-.19-.08-.19-.17V7.35c0-.09.08-.17.19-.17h3.74c.11 0 .19.08.19.17z"),
 				},
 			},
 		},
@@ -6946,7 +7267,7 @@ func MortarBoard() *html.Node {
 				{
 					Namespace: (string)(""),
 					Key:       (string)("d"),
-					Val:       (string)("M7.83 9.19L4 8c-4-8 0 1.5 0 2.5S5.8 12 8 12s4-.5 4-1.5V8L8.17 9.19a.73.73 0 0 1-.36 0h.02zm.28-6.39a.34.34 0 0 0-.2 0L.27 5.18a.35.35 0 0 0 0 .67L2 6.4v1.77c-.3.17-.5.5-.5.86 0 .19.05.36.14.5-.08.14-.14.31-.14.5v2.58c0 .55 2 .55 2 0v-2.58c0-.19-.05-.36-.14-.5.08-.14.14-.31.14-.5 0-.38-.2-.69-.5-.86V6.72l4.89 1.53c.06.02.14.02.2 0l7.64-2.38a.35.35 0 0 0 0-.67L8.1 2.81l.01-.01zM8.02 6c-.55 0-1-.22-1-.5s.45-.5 1-.5 1 .22 1 .5-.45.5-1 .5z"),
+					Val:       (string)("M8.11 2.8a.34.34 0 0 0-.2 0L.27 5.18a.35.35 0 0 0 0 .67L2 6.4v1.77c-.3.17-.5.5-.5.86 0 .19.05.36.14.5-.08.14-.14.31-.14.5v2.58c0 .55 2 .55 2 0v-2.58c0-.19-.05-.36-.14-.5.08-.14.14-.31.14-.5 0-.38-.2-.69-.5-.86V6.72l4.89 1.53c.06.02.14.02.2 0l7.64-2.38a.35.35 0 0 0 0-.67L8.1 2.81l.01-.01zM4 8l3.83 1.19h-.02c.13.03.25.03.36 0L12 8v2.5c0 1-1.8 1.5-4 1.5s-4-.5-4-1.5V8zm3.02-2.5c0 .28.45.5 1 .5s1-.22 1-.5-.45-.5-1-.5-1 .22-1 .5z"),
 				},
 			},
 		},
@@ -7567,6 +7888,65 @@ func Pin() *html.Node {
 				Namespace: (string)(""),
 				Key:       (string)("viewBox"),
 				Val:       (string)("0 0 16 16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("style"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
+			},
+		},
+	}
+}
+
+// Play returns an "play" Octicon SVG node.
+func Play() *html.Node {
+	return &html.Node{
+		Parent: (*html.Node)(nil),
+		FirstChild: &html.Node{
+			Parent:      (*html.Node)(nil),
+			FirstChild:  (*html.Node)(nil),
+			LastChild:   (*html.Node)(nil),
+			PrevSibling: (*html.Node)(nil),
+			NextSibling: (*html.Node)(nil),
+			Type:        (html.NodeType)(3),
+			DataAtom:    (atom.Atom)(0),
+			Data:        (string)("path"),
+			Namespace:   (string)("svg"),
+			Attr: []html.Attribute{
+				{
+					Namespace: (string)(""),
+					Key:       (string)("d"),
+					Val:       (string)("M14 8A7 7 0 1 1 0 8a7 7 0 0 1 14 0zm-8.223 3.482l4.599-3.066a.5.5 0 0 0 0-.832L5.777 4.518A.5.5 0 0 0 5 4.934v6.132a.5.5 0 0 0 .777.416z"),
+				},
+			},
+		},
+		LastChild:   (*html.Node)(nil),
+		PrevSibling: (*html.Node)(nil),
+		NextSibling: (*html.Node)(nil),
+		Type:        (html.NodeType)(3),
+		DataAtom:    (atom.Atom)(462339),
+		Data:        (string)("svg"),
+		Namespace:   (string)("svg"),
+		Attr: []html.Attribute{
+			{
+				Namespace: (string)(""),
+				Key:       (string)("xmlns"),
+				Val:       (string)("http://www.w3.org/2000/svg"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("width"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("height"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("viewBox"),
+				Val:       (string)("0 0 14 16"),
 			},
 			{
 				Namespace: (string)(""),
@@ -8580,6 +8960,124 @@ func RepoPush() *html.Node {
 	}
 }
 
+// RepoTemplate returns an "repo-template" Octicon SVG node.
+func RepoTemplate() *html.Node {
+	return &html.Node{
+		Parent: (*html.Node)(nil),
+		FirstChild: &html.Node{
+			Parent:      (*html.Node)(nil),
+			FirstChild:  (*html.Node)(nil),
+			LastChild:   (*html.Node)(nil),
+			PrevSibling: (*html.Node)(nil),
+			NextSibling: (*html.Node)(nil),
+			Type:        (html.NodeType)(3),
+			DataAtom:    (atom.Atom)(0),
+			Data:        (string)("path"),
+			Namespace:   (string)("svg"),
+			Attr: []html.Attribute{
+				{
+					Namespace: (string)(""),
+					Key:       (string)("d"),
+					Val:       (string)("M12 8V1c0-.55-.45-1-1-1H1C.45 0 0 .45 0 1v12c0 .55.45 1 1 1h2v2l1.5-1.5L6 16v-4H3v1H1v-2h7v-1H2V1h9v7h1zM4 2H3v1h1V2zM3 4h1v1H3V4zm1 2H3v1h1V6zm0 3H3V8h1v1zm6 3H8v2h2v2h2v-2h2v-2h-2v-2h-2v2z"),
+				},
+			},
+		},
+		LastChild:   (*html.Node)(nil),
+		PrevSibling: (*html.Node)(nil),
+		NextSibling: (*html.Node)(nil),
+		Type:        (html.NodeType)(3),
+		DataAtom:    (atom.Atom)(462339),
+		Data:        (string)("svg"),
+		Namespace:   (string)("svg"),
+		Attr: []html.Attribute{
+			{
+				Namespace: (string)(""),
+				Key:       (string)("xmlns"),
+				Val:       (string)("http://www.w3.org/2000/svg"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("width"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("height"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("viewBox"),
+				Val:       (string)("0 0 14 16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("style"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
+			},
+		},
+	}
+}
+
+// RepoTemplatePrivate returns an "repo-template-private" Octicon SVG node.
+func RepoTemplatePrivate() *html.Node {
+	return &html.Node{
+		Parent: (*html.Node)(nil),
+		FirstChild: &html.Node{
+			Parent:      (*html.Node)(nil),
+			FirstChild:  (*html.Node)(nil),
+			LastChild:   (*html.Node)(nil),
+			PrevSibling: (*html.Node)(nil),
+			NextSibling: (*html.Node)(nil),
+			Type:        (html.NodeType)(3),
+			DataAtom:    (atom.Atom)(0),
+			Data:        (string)("path"),
+			Namespace:   (string)("svg"),
+			Attr: []html.Attribute{
+				{
+					Namespace: (string)(""),
+					Key:       (string)("d"),
+					Val:       (string)("M12 6c0-.55-.45-1-1-1h-1V4c0-2.2-1.8-4-4-4S2 1.8 2 4v1H1c-.55 0-1 .45-1 1v7c0 .55.45 1 1 1h5v-1H2V6h9v2h1V6zM8.21 5V4c0-1.22-.98-2.2-2.2-2.2-1.22 0-2.2.98-2.2 2.2v1h4.4zM12 12h2v2h-2v2h-2v-2H8v-2h2v-2h2v2zm-9 0h1v-1H3v1zm0-5h1v1H3V7zm1 2H3v1h1V9z"),
+				},
+			},
+		},
+		LastChild:   (*html.Node)(nil),
+		PrevSibling: (*html.Node)(nil),
+		NextSibling: (*html.Node)(nil),
+		Type:        (html.NodeType)(3),
+		DataAtom:    (atom.Atom)(462339),
+		Data:        (string)("svg"),
+		Namespace:   (string)("svg"),
+		Attr: []html.Attribute{
+			{
+				Namespace: (string)(""),
+				Key:       (string)("xmlns"),
+				Val:       (string)("http://www.w3.org/2000/svg"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("width"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("height"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("viewBox"),
+				Val:       (string)("0 0 14 16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("style"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
+			},
+		},
+	}
+}
+
 // Report returns an "report" Octicon SVG node.
 func Report() *html.Node {
 	return &html.Node{
@@ -8629,6 +9127,65 @@ func Report() *html.Node {
 				Namespace: (string)(""),
 				Key:       (string)("viewBox"),
 				Val:       (string)("0 0 16 16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("style"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
+			},
+		},
+	}
+}
+
+// RequestChanges returns an "request-changes" Octicon SVG node.
+func RequestChanges() *html.Node {
+	return &html.Node{
+		Parent: (*html.Node)(nil),
+		FirstChild: &html.Node{
+			Parent:      (*html.Node)(nil),
+			FirstChild:  (*html.Node)(nil),
+			LastChild:   (*html.Node)(nil),
+			PrevSibling: (*html.Node)(nil),
+			NextSibling: (*html.Node)(nil),
+			Type:        (html.NodeType)(3),
+			DataAtom:    (atom.Atom)(0),
+			Data:        (string)("path"),
+			Namespace:   (string)("svg"),
+			Attr: []html.Attribute{
+				{
+					Namespace: (string)(""),
+					Key:       (string)("d"),
+					Val:       (string)("M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H7.5L4 15.5V12H1a1 1 0 0 1-1-1V1zm1 0v10h4v2l2-2h8V1H1zm7.5 3h2v1h-2v2h-1V5h-2V4h2V2h1v2zm2 5h-5V8h5v1z"),
+				},
+			},
+		},
+		LastChild:   (*html.Node)(nil),
+		PrevSibling: (*html.Node)(nil),
+		NextSibling: (*html.Node)(nil),
+		Type:        (html.NodeType)(3),
+		DataAtom:    (atom.Atom)(462339),
+		Data:        (string)("svg"),
+		Namespace:   (string)("svg"),
+		Attr: []html.Attribute{
+			{
+				Namespace: (string)(""),
+				Key:       (string)("xmlns"),
+				Val:       (string)("http://www.w3.org/2000/svg"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("width"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("height"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("viewBox"),
+				Val:       (string)("0 0 16 15"),
 			},
 			{
 				Namespace: (string)(""),
@@ -9129,6 +9686,124 @@ func Shield() *html.Node {
 				{
 					Namespace: (string)(""),
 					Key:       (string)("d"),
+					Val:       (string)("M0 2l7-2 7 2v6.02C14 12.69 8.69 16 7 16c-1.69 0-7-3.31-7-7.98V2zm1 .75L7 1l6 1.75v5.268C13 12.104 8.449 15 7 15c-1.449 0-6-2.896-6-6.982V2.75zm1 .75L7 2v12c-1.207 0-5-2.482-5-5.985V3.5z"),
+				},
+			},
+		},
+		LastChild:   (*html.Node)(nil),
+		PrevSibling: (*html.Node)(nil),
+		NextSibling: (*html.Node)(nil),
+		Type:        (html.NodeType)(3),
+		DataAtom:    (atom.Atom)(462339),
+		Data:        (string)("svg"),
+		Namespace:   (string)("svg"),
+		Attr: []html.Attribute{
+			{
+				Namespace: (string)(""),
+				Key:       (string)("xmlns"),
+				Val:       (string)("http://www.w3.org/2000/svg"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("width"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("height"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("viewBox"),
+				Val:       (string)("0 0 14 16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("style"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
+			},
+		},
+	}
+}
+
+// ShieldCheck returns an "shield-check" Octicon SVG node.
+func ShieldCheck() *html.Node {
+	return &html.Node{
+		Parent: (*html.Node)(nil),
+		FirstChild: &html.Node{
+			Parent:      (*html.Node)(nil),
+			FirstChild:  (*html.Node)(nil),
+			LastChild:   (*html.Node)(nil),
+			PrevSibling: (*html.Node)(nil),
+			NextSibling: (*html.Node)(nil),
+			Type:        (html.NodeType)(3),
+			DataAtom:    (atom.Atom)(0),
+			Data:        (string)("path"),
+			Namespace:   (string)("svg"),
+			Attr: []html.Attribute{
+				{
+					Namespace: (string)(""),
+					Key:       (string)("d"),
+					Val:       (string)("M6.5 0L0 1.875v5.644C0 11.897 4.93 15 6.5 15c.741 0 2.232-.692 3.6-1.884l-.713-.61C8.275 13.453 7.099 14 6.5 14 5.172 14 1 11.31 1 7.516V2.625L6.5 1 12 2.625v4.891c0 .128-.005.255-.014.38L13 6.713V1.875L6.5 0zm5 10l-2-1.5L8 10l3.5 3L16 8l-1.5-1.5-3 3.5zM2 3.375L6.5 2v11C5.414 13 2 10.724 2 7.514V3.375z"),
+				},
+			},
+		},
+		LastChild:   (*html.Node)(nil),
+		PrevSibling: (*html.Node)(nil),
+		NextSibling: (*html.Node)(nil),
+		Type:        (html.NodeType)(3),
+		DataAtom:    (atom.Atom)(462339),
+		Data:        (string)("svg"),
+		Namespace:   (string)("svg"),
+		Attr: []html.Attribute{
+			{
+				Namespace: (string)(""),
+				Key:       (string)("xmlns"),
+				Val:       (string)("http://www.w3.org/2000/svg"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("width"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("height"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("viewBox"),
+				Val:       (string)("0 0 16 16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("style"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
+			},
+		},
+	}
+}
+
+// ShieldLock returns an "shield-lock" Octicon SVG node.
+func ShieldLock() *html.Node {
+	return &html.Node{
+		Parent: (*html.Node)(nil),
+		FirstChild: &html.Node{
+			Parent:      (*html.Node)(nil),
+			FirstChild:  (*html.Node)(nil),
+			LastChild:   (*html.Node)(nil),
+			PrevSibling: (*html.Node)(nil),
+			NextSibling: (*html.Node)(nil),
+			Type:        (html.NodeType)(3),
+			DataAtom:    (atom.Atom)(0),
+			Data:        (string)("path"),
+			Namespace:   (string)("svg"),
+			Attr: []html.Attribute{
+				{
+					Namespace: (string)(""),
+					Key:       (string)("d"),
 					Val:       (string)("M7 0L0 2v6.02C0 12.69 5.31 16 7 16c1.69 0 7-3.31 7-7.98V2L7 0zM5 11l1.14-2.8a.568.568 0 0 0-.25-.59C5.33 7.25 5 6.66 5 6c0-1.09.89-2 1.98-2C8.06 4 9 4.91 9 6c0 .66-.33 1.25-.89 1.61-.19.13-.3.36-.25.59L9 11H5z"),
 				},
 			},
@@ -9160,6 +9835,65 @@ func Shield() *html.Node {
 				Namespace: (string)(""),
 				Key:       (string)("viewBox"),
 				Val:       (string)("0 0 14 16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("style"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
+			},
+		},
+	}
+}
+
+// ShieldX returns an "shield-x" Octicon SVG node.
+func ShieldX() *html.Node {
+	return &html.Node{
+		Parent: (*html.Node)(nil),
+		FirstChild: &html.Node{
+			Parent:      (*html.Node)(nil),
+			FirstChild:  (*html.Node)(nil),
+			LastChild:   (*html.Node)(nil),
+			PrevSibling: (*html.Node)(nil),
+			NextSibling: (*html.Node)(nil),
+			Type:        (html.NodeType)(3),
+			DataAtom:    (atom.Atom)(0),
+			Data:        (string)("path"),
+			Namespace:   (string)("svg"),
+			Attr: []html.Attribute{
+				{
+					Namespace: (string)(""),
+					Key:       (string)("d"),
+					Val:       (string)("M6.5 0L0 1.875v5.644C0 11.897 4.93 15 6.5 15c.63 0 1.8-.5 2.976-1.38l-.663-.663C7.889 13.625 6.996 14 6.5 14 5.172 14 1 11.31 1 7.516V2.625L6.5 1 12 2.625v4.23l.48.48.52-.52v-4.94L6.5 0zm5.98 8.75L10.73 7 9.25 8.48 11 10.23l-1.75 1.75 1.48 1.48 1.75-1.75 1.75 1.75 1.48-1.48-1.75-1.75 1.75-1.75L14.23 7l-1.75 1.75zM2 3.375L6.5 2v11C5.414 13 2 10.724 2 7.514V3.375z"),
+				},
+			},
+		},
+		LastChild:   (*html.Node)(nil),
+		PrevSibling: (*html.Node)(nil),
+		NextSibling: (*html.Node)(nil),
+		Type:        (html.NodeType)(3),
+		DataAtom:    (atom.Atom)(462339),
+		Data:        (string)("svg"),
+		Namespace:   (string)("svg"),
+		Attr: []html.Attribute{
+			{
+				Namespace: (string)(""),
+				Key:       (string)("xmlns"),
+				Val:       (string)("http://www.w3.org/2000/svg"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("width"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("height"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("viewBox"),
+				Val:       (string)("0 0 16 16"),
 			},
 			{
 				Namespace: (string)(""),
@@ -9247,7 +9981,66 @@ func SignOut() *html.Node {
 				{
 					Namespace: (string)(""),
 					Key:       (string)("d"),
-					Val:       (string)("M11.992 8.994V6.996H7.995v-2h3.997V2.999l3.998 2.998-3.998 2.998zm-1.998 2.998H5.996V2.998L2 1h7.995v2.998h1V1c0-.55-.45-.999-1-.999H.999A1.001 1.001 0 0 0 0 1v11.372c0 .39.22.73.55.91L5.996 16v-3.008h3.998c.55 0 1-.45 1-1V7.995h-1v3.997z"),
+					Val:       (string)("M12 9V7H8V5h4V3l4 3-4 3zm-2 3H6V3L2 1h8v3h1V1c0-.55-.45-1-1-1H1C.45 0 0 .45 0 1v11.38c0 .39.22.73.55.91L6 16.01V13h4c.55 0 1-.45 1-1V8h-1v4z"),
+				},
+			},
+		},
+		LastChild:   (*html.Node)(nil),
+		PrevSibling: (*html.Node)(nil),
+		NextSibling: (*html.Node)(nil),
+		Type:        (html.NodeType)(3),
+		DataAtom:    (atom.Atom)(462339),
+		Data:        (string)("svg"),
+		Namespace:   (string)("svg"),
+		Attr: []html.Attribute{
+			{
+				Namespace: (string)(""),
+				Key:       (string)("xmlns"),
+				Val:       (string)("http://www.w3.org/2000/svg"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("width"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("height"),
+				Val:       (string)("16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("viewBox"),
+				Val:       (string)("0 0 16 16"),
+			},
+			{
+				Namespace: (string)(""),
+				Key:       (string)("style"),
+				Val:       (string)("fill: currentColor; vertical-align: top;"),
+			},
+		},
+	}
+}
+
+// Skip returns an "skip" Octicon SVG node.
+func Skip() *html.Node {
+	return &html.Node{
+		Parent: (*html.Node)(nil),
+		FirstChild: &html.Node{
+			Parent:      (*html.Node)(nil),
+			FirstChild:  (*html.Node)(nil),
+			LastChild:   (*html.Node)(nil),
+			PrevSibling: (*html.Node)(nil),
+			NextSibling: (*html.Node)(nil),
+			Type:        (html.NodeType)(3),
+			DataAtom:    (atom.Atom)(0),
+			Data:        (string)("path"),
+			Namespace:   (string)("svg"),
+			Attr: []html.Attribute{
+				{
+					Namespace: (string)(""),
+					Key:       (string)("d"),
+					Val:       (string)("M5.79 11.624l-1.326-.088-.088-1.326 5.834-5.834 1.326.088.088 1.326-5.834 5.834zM8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm5.5-7a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"),
 				},
 			},
 		},
@@ -9601,7 +10394,7 @@ func Tag() *html.Node {
 				{
 					Namespace: (string)(""),
 					Key:       (string)("d"),
-					Val:       (string)("M7.685 1.72a2.49 2.49 0 0 0-1.76-.726H3.48A2.5 2.5 0 0 0 .994 3.48v2.456c0 .656.269 1.292.726 1.76l6.024 6.024a.99.99 0 0 0 1.402 0l4.563-4.563a.99.99 0 0 0 0-1.402L7.685 1.72zM2.366 7.048a1.54 1.54 0 0 1-.467-1.123V3.48c0-.874.716-1.58 1.58-1.58h2.456c.418 0 .825.159 1.123.467l6.104 6.094-4.702 4.702-6.094-6.114zm.626-4.066h1.989v1.989H2.982V2.982h.01z"),
+					Val:       (string)("M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"),
 				},
 			},
 		},
@@ -9955,7 +10748,7 @@ func Thumbsdown() *html.Node {
 				{
 					Namespace: (string)(""),
 					Key:       (string)("d"),
-					Val:       (string)("M15.97 7.825L15 1.88C14.83.499 13.123 0 11.993 0H5.686c-.2 0-.38.05-.53.14L3.719 1h-1.72C.94 1 0 1.938 0 2.997v3.998c0 1.059.94 2.018 1.999 1.998h1.998c.91 0 1.39.45 2.389 1.55.91.999.88 1.798.63 3.267-.08.5.06 1 .42 1.42.39.47.979.769 1.558.769 1.83 0 2.998-3.718 2.998-5.017l-.02-.98h2.04c1.159 0 1.948-.799 1.978-1.968 0-.06.02-.13-.02-.2v-.01zm-1.969 1.19h-1.989c-.7 0-1.029.28-1.029.969l.03 1.03c0 1.268-1.17 3.997-1.999 3.997-.5 0-1.079-.5-.999-1 .25-1.579.34-2.778-.89-4.137-1.019-1.13-1.768-1.879-3.127-1.879V1.999l1.668-1h6.326c.73 0 1.95.31 2 1l.02.02.999 5.996c-.03.64-.38 1-1 1h-.01z"),
+					Val:       (string)("M15.98 7.83l-.97-5.95C14.84.5 13.13 0 12 0H5.69c-.2 0-.38.05-.53.14L3.72 1H2C.94 1 0 1.94 0 3v4c0 1.06.94 2.02 2 2h2c.91 0 1.39.45 2.39 1.55.91 1 .88 1.8.63 3.27-.08.5.06 1 .42 1.42.39.47.98.76 1.56.76 1.83 0 3-3.71 3-5.01l-.02-.98h2.04c1.16 0 1.95-.8 1.98-1.97 0-.11-.02-.21-.02-.21zm-1.97 1.19h-1.99c-.7 0-1.03.28-1.03.97l.03 1.03c0 1.27-1.17 4-2 4-.5 0-1.08-.5-1-1 .25-1.58.34-2.78-.89-4.14C6.11 8.75 5.36 8 4 8V2l1.67-1H12c.73 0 1.95.31 2 1l.02.02 1 6c-.03.64-.38 1-1 1h-.01z"),
 				},
 			},
 		},
@@ -10014,7 +10807,7 @@ func Thumbsup() *html.Node {
 				{
 					Namespace: (string)(""),
 					Key:       (string)("d"),
-					Val:       (string)("M13.991 13.991c-.05.69-1.269 1-1.998 1H5.665l-1.669-1V7.995c1.36 0 2.11-.75 3.129-1.879 1.229-1.359 1.139-2.558.879-4.127-.08-.5.5-1 1-1 .829 0 1.998 2.729 1.998 3.998l-.02 1.03c0 .689.33.969 1.02.969H14c.63 0 .98.36 1 .999l-1 5.996-.01.01zm0-7.995h-2.018l.02-.98C11.992 3.719 10.822 0 8.993 0c-.58 0-1.169.3-1.559.77-.36.41-.5.909-.42 1.409.25 1.479.28 2.278-.629 3.278-1 1.089-1.48 1.549-2.389 1.549H2c-1.061-.01-2 .929-2 1.988v3.998c0 1.06.94 1.999 1.999 1.999h1.719l1.439.86c.16.089.33.139.52.139h6.325c1.13 0 2.839-.5 2.999-1.879l.979-5.946c.02-.08.02-.14.02-.2-.03-1.17-.84-1.969-1.999-1.969h-.01z"),
+					Val:       (string)("M15.98 8.17l-.97 5.95C14.84 15.5 13.13 16 12 16H5.69c-.2 0-.38-.05-.53-.14L3.72 15H2c-1.06 0-2-.94-2-2V9c0-1.06.94-2.02 2-2h2c.91 0 1.39-.45 2.39-1.55.91-1 .88-1.8.63-3.27-.08-.5.06-1 .42-1.42C7.83.29 8.42 0 9 0c1.83 0 3 3.71 3 5.01l-.02.98h2.04c1.16 0 1.95.8 1.98 1.97 0 .11-.02.21-.02.21zm-1.97-1.19h-1.99c-.7 0-1.03-.28-1.03-.97l.03-1.03c0-1.27-1.17-4-2-4-.5 0-1.08.5-1 1 .25 1.58.34 2.78-.89 4.14C6.11 7.25 5.36 8 4 8v6l1.67 1H12c.73 0 1.95-.31 2-1l.02-.02 1-6c-.03-.64-.38-1-1-1h-.01z"),
 				},
 			},
 		},
@@ -10545,7 +11338,7 @@ func Unverified() *html.Node {
 				{
 					Namespace: (string)(""),
 					Key:       (string)("d"),
-					Val:       (string)("M15.67 7.066l-1.08-1.34a1.5 1.5 0 0 1-.309-.77l-.19-1.698a1.51 1.51 0 0 0-1.329-1.33l-1.699-.19c-.3-.03-.56-.159-.78-.329L8.945.33a1.504 1.504 0 0 0-1.878 0l-1.34 1.08a1.5 1.5 0 0 1-.77.31l-1.698.19c-.7.08-1.25.63-1.33 1.329l-.19 1.699c-.03.3-.159.56-.329.78L.33 7.055a1.504 1.504 0 0 0 0 1.878l1.08 1.34c.17.22.28.48.31.77l.19 1.698c.08.7.63 1.25 1.329 1.33l1.699.19c.3.03.56.159.78.329l1.339 1.08c.55.439 1.329.439 1.878 0l1.34-1.08c.22-.17.48-.28.77-.31l1.698-.19c.7-.08 1.25-.63 1.33-1.329l.19-1.699c.03-.3.159-.56.329-.78l1.08-1.339a1.504 1.504 0 0 0 0-1.878zm-6.666 4.437c0 .28-.22.5-.5.5h-.999c-.27 0-.5-.22-.5-.5v-1c0-.28.23-.5.5-.5h1c.28 0 .5.22.5.5v1zm1.56-4.887c-.06.17-.17.33-.3.47-.13.16-.14.19-.33.38-.16.17-.31.3-.52.449-.11.09-.2.19-.28.27-.08.08-.14.17-.19.27-.05.1-.08.19-.11.3-.03.11-.03.13-.03.25H7.136c0-.22 0-.31.03-.48.03-.19.08-.36.14-.52.06-.14.14-.28.25-.42.11-.13.23-.25.409-.38.27-.19.36-.3.48-.52.12-.219.2-.379.2-.589 0-.27-.06-.45-.2-.58-.13-.13-.31-.19-.58-.19-.09 0-.19.02-.3.05-.11.03-.17.09-.25.16-.08.07-.14.11-.2.2a.41.41 0 0 0-.09.28H5.028c0-.38.13-.56.27-.83.16-.27.36-.499.61-.669.25-.17.549-.3.879-.38.33-.08.7-.13 1.09-.13.439 0 .829.05 1.168.13.34.09.63.22.88.39.23.17.41.38.55.63.13.25.19.55.19.88 0 .22 0 .419-.08.589l-.02-.01z"),
+					Val:       (string)("M15.67 7.066l-1.08-1.34a1.5 1.5 0 0 1-.309-.77l-.19-1.698a1.51 1.51 0 0 0-1.329-1.33l-1.699-.19c-.3-.03-.56-.159-.78-.329L8.945.33a1.504 1.504 0 0 0-1.878 0l-1.34 1.08a1.5 1.5 0 0 1-.77.31l-1.698.19c-.7.08-1.25.63-1.33 1.329l-.19 1.699c-.03.3-.159.56-.329.78L.33 7.055a1.504 1.504 0 0 0 0 1.878l1.08 1.34c.17.22.28.48.31.77l.19 1.698c.08.7.63 1.25 1.329 1.33l1.699.19c.3.03.56.159.78.329l1.339 1.08c.55.439 1.329.439 1.878 0l1.34-1.08c.22-.17.48-.28.77-.31l1.698-.19c.7-.08 1.25-.63 1.33-1.329l.19-1.699c.03-.3.159-.56.329-.78l1.08-1.339a1.504 1.504 0 0 0 0-1.878zM9 11.5c0 .28-.22.5-.5.5h-1c-.27 0-.5-.22-.5-.5v-1c0-.28.23-.5.5-.5h1c.28 0 .5.22.5.5v1zm1.56-4.89c-.06.17-.17.33-.3.47-.13.16-.14.19-.33.38-.16.17-.31.3-.52.45-.11.09-.2.19-.28.27-.08.08-.14.17-.19.27-.05.1-.08.19-.11.3-.03.11-.03.13-.03.25H7.13c0-.22 0-.31.03-.48.03-.19.08-.36.14-.52.06-.14.14-.28.25-.42.11-.13.23-.25.41-.38.27-.19.36-.3.48-.52.12-.22.2-.38.2-.59 0-.27-.06-.45-.2-.58-.13-.13-.31-.19-.58-.19-.09 0-.19.02-.3.05-.11.03-.17.09-.25.16-.08.07-.14.11-.2.2a.41.41 0 0 0-.09.28h-2c0-.38.13-.56.27-.83.16-.27.36-.5.61-.67.25-.17.55-.3.88-.38.33-.08.7-.13 1.09-.13.44 0 .83.05 1.17.13.34.09.63.22.88.39.23.17.41.38.55.63.13.25.19.55.19.88 0 .22 0 .42-.08.59l-.02-.01z"),
 				},
 			},
 		},
@@ -10604,7 +11397,7 @@ func Verified() *html.Node {
 				{
 					Namespace: (string)(""),
 					Key:       (string)("d"),
-					Val:       (string)("M15.67 7.066l-1.08-1.34a1.5 1.5 0 0 1-.309-.77l-.19-1.698a1.51 1.51 0 0 0-1.329-1.33l-1.699-.19c-.3-.03-.56-.159-.78-.329L8.945.33a1.504 1.504 0 0 0-1.878 0l-1.34 1.08a1.5 1.5 0 0 1-.77.31l-1.698.19c-.7.08-1.25.63-1.33 1.329l-.19 1.699c-.03.3-.159.56-.329.78L.33 7.055a1.504 1.504 0 0 0 0 1.878l1.08 1.34c.17.22.28.48.31.77l.19 1.698c.08.7.63 1.25 1.329 1.33l1.699.19c.3.03.56.159.78.329l1.339 1.08c.55.439 1.329.439 1.878 0l1.34-1.08c.22-.17.48-.28.77-.31l1.698-.19c.7-.08 1.25-.63 1.33-1.329l.19-1.699c.03-.3.159-.56.329-.78l1.08-1.339a1.504 1.504 0 0 0 0-1.878zm-9.164 4.936L3.008 8.505l1.5-1.5 1.998 2 4.997-4.998 1.499 1.55-6.496 6.445z"),
+					Val:       (string)("M15.67 7.066l-1.08-1.34a1.5 1.5 0 0 1-.309-.77l-.19-1.698a1.51 1.51 0 0 0-1.329-1.33l-1.699-.19c-.3-.03-.56-.159-.78-.329L8.945.33a1.504 1.504 0 0 0-1.878 0l-1.34 1.08a1.5 1.5 0 0 1-.77.31l-1.698.19c-.7.08-1.25.63-1.33 1.329l-.19 1.699c-.03.3-.159.56-.329.78L.33 7.055a1.504 1.504 0 0 0 0 1.878l1.08 1.34c.17.22.28.48.31.77l.19 1.698c.08.7.63 1.25 1.329 1.33l1.699.19c.3.03.56.159.78.329l1.339 1.08c.55.439 1.329.439 1.878 0l1.34-1.08c.22-.17.48-.28.77-.31l1.698-.19c.7-.08 1.25-.63 1.33-1.329l.19-1.699c.03-.3.159-.56.329-.78l1.08-1.339a1.504 1.504 0 0 0 0-1.878zM6.5 12.01L3 8.51l1.5-1.5 2 2 5-5L13 5.56l-6.5 6.45z"),
 				},
 			},
 		},

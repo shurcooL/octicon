@@ -106,7 +106,7 @@ func SetSize(icon *html.Node, size int) *html.Node {
 type octicon struct {
 	Path   string
 	Width  int
-	Height int
+	Height float64
 }
 
 func generateAndWriteOcticon(w io.Writer, octicons map[string]octicon, name string) {
@@ -135,6 +135,8 @@ const (
 	heightAttrIndex = 2
 )
 
+// TODO: Short-circuit generateOcticon and parseOcticon.
+
 func generateOcticon(o octicon) (svgXML string) {
 	path := o.Path
 	if strings.HasPrefix(path, `<path fill-rule="evenodd" `) {
@@ -143,8 +145,8 @@ func generateOcticon(o octicon) (svgXML string) {
 	}
 	// Note, SetSize relies on the absolute position of the width, height attributes.
 	// Keep them in sync with widthAttrIndex and heightAttrIndex.
-	return fmt.Sprintf(`<svg xmlns="http://www.w3.org/2000/svg" width="%d" height="%d" viewBox="0 0 %d %d">%s</svg>`,
-		o.Width, o.Height, o.Width, o.Height, path)
+	return fmt.Sprintf(`<svg xmlns="http://www.w3.org/2000/svg" width=16 height=16 viewBox="0 0 %v %v">%s</svg>`,
+		o.Width, o.Height, path)
 }
 
 func parseOcticon(svgXML string) *html.Node {
@@ -154,12 +156,6 @@ func parseOcticon(svgXML string) *html.Node {
 	}
 	svg := e[0].LastChild.FirstChild // TODO: Is there a better way to just get the <svg>...</svg> element directly, skipping <html><head></head><body><svg>...</svg></body></html>?
 	svg.Parent.RemoveChild(svg)
-	for i, attr := range svg.Attr {
-		if attr.Namespace == "" && attr.Key == "width" {
-			svg.Attr[i].Val = "16"
-			break
-		}
-	}
 	svg.Attr = append(svg.Attr, html.Attribute{Key: atom.Style.String(), Val: `fill: currentColor; vertical-align: top;`})
 	return svg
 }
